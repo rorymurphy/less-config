@@ -1,0 +1,1243 @@
+﻿{
+	"Variables": [{
+		"Name": "black",
+		"Category": "Colors",
+		"Type": "Size",
+		"Title": "Black",
+		"Description": "Black",
+		"DefaultValue": "#000",
+		"Order": 0
+	}, {
+		"Name": "grayDarker",
+		"Category": "Colors",
+		"Type": "Size",
+		"Title": "Gray Darker",
+		"Description": "Gray Darker",
+		"DefaultValue": "#222",
+		"Order": 1
+	}, {
+		"Name": "grayDark",
+		"Category": "Colors",
+		"Type": "Size",
+		"Title": "Gray Dark",
+		"Description": "Gray Dark",
+		"DefaultValue": "#333",
+		"Order": 2
+	}, {
+		"Name": "gray",
+		"Category": "Colors",
+		"Type": "Size",
+		"Title": "Gray",
+		"Description": "Gray",
+		"DefaultValue": "#555",
+		"Order": 3
+	}, {
+		"Name": "grayLight",
+		"Category": "Colors",
+		"Type": "Size",
+		"Title": "Gray Light",
+		"Description": "Gray Light",
+		"DefaultValue": "#999",
+		"Order": 4
+	}, {
+		"Name": "grayLighter",
+		"Category": "Colors",
+		"Type": "Size",
+		"Title": "Gray Lighter",
+		"Description": "Gray Lighter",
+		"DefaultValue": "#eee",
+		"Order": 5
+	}, {
+		"Name": "white",
+		"Category": "Colors",
+		"Type": "Size",
+		"Title": "White",
+		"Description": "White",
+		"DefaultValue": "#fff",
+		"Order": 6
+	}, {
+		"Name": "blue",
+		"Category": "Colors",
+		"Type": "Size",
+		"Title": "Blue",
+		"Description": "Blue",
+		"DefaultValue": "#049cdb",
+		"Order": 7
+	}, {
+		"Name": "blueDark",
+		"Category": "Colors",
+		"Type": "Size",
+		"Title": "Blue Dark",
+		"Description": "Blue Dark",
+		"DefaultValue": "#0064cd",
+		"Order": 8
+	}, {
+		"Name": "green",
+		"Category": "Colors",
+		"Type": "Size",
+		"Title": "Green",
+		"Description": "Green",
+		"DefaultValue": "#46a546",
+		"Order": 9
+	}, {
+		"Name": "red",
+		"Category": "Colors",
+		"Type": "Size",
+		"Title": "Red",
+		"Description": "Red",
+		"DefaultValue": "#9d261d",
+		"Order": 10
+	}, {
+		"Name": "yellow",
+		"Category": "Colors",
+		"Type": "Size",
+		"Title": "Yellow",
+		"Description": "Yellow",
+		"DefaultValue": "#ffc40d",
+		"Order": 11
+	}, {
+		"Name": "orange",
+		"Category": "Colors",
+		"Type": "Size",
+		"Title": "Orange",
+		"Description": "Orange",
+		"DefaultValue": "#f89406",
+		"Order": 12
+	}, {
+		"Name": "pink",
+		"Category": "Colors",
+		"Type": "Size",
+		"Title": "Pink",
+		"Description": "Pink",
+		"DefaultValue": "#c3325f",
+		"Order": 13
+	}, {
+		"Name": "purple",
+		"Category": "Colors",
+		"Type": "Size",
+		"Title": "Purple",
+		"Description": "Purple",
+		"DefaultValue": "#7a43b6",
+		"Order": 14
+	}, {
+		"Name": "bodyBackground",
+		"Category": "Scaffolding",
+		"Type": "Size",
+		"Title": "Body Background",
+		"Description": "Body Background",
+		"DefaultValue": "@white",
+		"Order": 15
+	}, {
+		"Name": "textColor",
+		"Category": "Scaffolding",
+		"Type": "Size",
+		"Title": "Text Color",
+		"Description": "Text Color",
+		"DefaultValue": "@grayDark",
+		"Order": 16
+	}, {
+		"Name": "linkColor",
+		"Category": "Scaffolding",
+		"Type": "Size",
+		"Title": "Link Color",
+		"Description": "Link Color",
+		"DefaultValue": "#08c",
+		"Order": 17
+	}, {
+		"Name": "linkColorHover",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Link Color Hover",
+		"Description": "Link Color Hover",
+		"DefaultValue": "darken(@linkColor, 15%)",
+		"Order": 18
+	}, {
+		"Name": "sansFontFamily",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Sans Font Family",
+		"Description": "Sans Font Family",
+		"DefaultValue": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+		"Order": 19
+	}, {
+		"Name": "serifFontFamily",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Serif Font Family",
+		"Description": "Serif Font Family",
+		"DefaultValue": "Georgia, \"Times New Roman\", Times, serif",
+		"Order": 20
+	}, {
+		"Name": "monoFontFamily",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Mono Font Family",
+		"Description": "Mono Font Family",
+		"DefaultValue": "Monaco, Menlo, Consolas, \"Courier New\", monospace",
+		"Order": 21
+	}, {
+		"Name": "baseFontSize",
+		"Category": "Typography",
+		"Type": "Size",
+		"Title": "Base Font Size",
+		"Description": "Base Font Size",
+		"DefaultValue": "14px",
+		"Order": 22
+	}, {
+		"Name": "baseFontFamily",
+		"Category": "Typography",
+		"Type": "Size",
+		"Title": "Base Font Family",
+		"Description": "Base Font Family",
+		"DefaultValue": "@sansFontFamily",
+		"Order": 23
+	}, {
+		"Name": "baseLineHeight",
+		"Category": "Typography",
+		"Type": "Size",
+		"Title": "Base Line Height",
+		"Description": "Base Line Height",
+		"DefaultValue": "20px",
+		"Order": 24
+	}, {
+		"Name": "altFontFamily",
+		"Category": "Typography",
+		"Type": "Size",
+		"Title": "Alt Font Family",
+		"Description": "Alt Font Family",
+		"DefaultValue": "@serifFontFamily",
+		"Order": 25
+	}, {
+		"Name": "headingsFontFamily",
+		"Category": "Typography",
+		"Type": "Size",
+		"Title": "Headings Font Family",
+		"Description": "Headings Font Family",
+		"DefaultValue": "inherit",
+		"Order": 26
+	}, {
+		"Name": "headingsFontWeight",
+		"Category": "Typography",
+		"Type": "Size",
+		"Title": "Headings Font Weight",
+		"Description": "Headings Font Weight",
+		"DefaultValue": "bold",
+		"Order": 27
+	}, {
+		"Name": "headingsColor",
+		"Category": "Typography",
+		"Type": "Size",
+		"Title": "Headings Color",
+		"Description": "Headings Color",
+		"DefaultValue": "inherit",
+		"Order": 28
+	}, {
+		"Name": "fontSizeLarge",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Font Size Large",
+		"Description": "Font Size Large",
+		"DefaultValue": "@baseFontSize * 1.25",
+		"Order": 29
+	}, {
+		"Name": "fontSizeSmall",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Font Size Small",
+		"Description": "Font Size Small",
+		"DefaultValue": "@baseFontSize * 0.85",
+		"Order": 30
+	}, {
+		"Name": "fontSizeMini",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Font Size Mini",
+		"Description": "Font Size Mini",
+		"DefaultValue": "@baseFontSize * 0.75",
+		"Order": 31
+	}, {
+		"Name": "paddingLarge",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Padding Large",
+		"Description": "Padding Large",
+		"DefaultValue": "11px 19px",
+		"Order": 32
+	}, {
+		"Name": "paddingSmall",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Padding Small",
+		"Description": "Padding Small",
+		"DefaultValue": "2px 10px",
+		"Order": 33
+	}, {
+		"Name": "paddingMini",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Padding Mini",
+		"Description": "Padding Mini",
+		"DefaultValue": "0 6px",
+		"Order": 34
+	}, {
+		"Name": "baseBorderRadius",
+		"Category": "Borders",
+		"Type": "Size",
+		"Title": "Base Border Radius",
+		"Description": "Base Border Radius",
+		"DefaultValue": "4px",
+		"Order": 35
+	}, {
+		"Name": "borderRadiusLarge",
+		"Category": "Borders",
+		"Type": "Size",
+		"Title": "Border Radius Large",
+		"Description": "Border Radius Large",
+		"DefaultValue": "6px",
+		"Order": 36
+	}, {
+		"Name": "borderRadiusSmall",
+		"Category": "Borders",
+		"Type": "Size",
+		"Title": "Border Radius Small",
+		"Description": "Border Radius Small",
+		"DefaultValue": "3px",
+		"Order": 37
+	}, {
+		"Name": "tableBackground",
+		"Category": "Tables",
+		"Type": "Size",
+		"Title": "Table Background",
+		"Description": "Table Background",
+		"DefaultValue": "transparent",
+		"Order": 38
+	}, {
+		"Name": "tableBackgroundAccent",
+		"Category": "Tables",
+		"Type": "Size",
+		"Title": "Table Background Accent",
+		"Description": "Table Background Accent",
+		"DefaultValue": "#f9f9f9",
+		"Order": 39
+	}, {
+		"Name": "tableBackgroundHover",
+		"Category": "Tables",
+		"Type": "Size",
+		"Title": "Table Background Hover",
+		"Description": "Table Background Hover",
+		"DefaultValue": "#f5f5f5",
+		"Order": 40
+	}, {
+		"Name": "tableBorder",
+		"Category": "Tables",
+		"Type": "Size",
+		"Title": "Table Border",
+		"Description": "Table Border",
+		"DefaultValue": "#ddd",
+		"Order": 41
+	}, {
+		"Name": "btnBackground",
+		"Category": "Buttons",
+		"Type": "Size",
+		"Title": "Btn Background",
+		"Description": "Btn Background",
+		"DefaultValue": "@white",
+		"Order": 42
+	}, {
+		"Name": "btnBackgroundHighlight",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Btn Background Highlight",
+		"Description": "Btn Background Highlight",
+		"DefaultValue": "darken(@white, 10%)",
+		"Order": 43
+	}, {
+		"Name": "btnBorder",
+		"Category": "Buttons",
+		"Type": "Size",
+		"Title": "Btn Border",
+		"Description": "Btn Border",
+		"DefaultValue": "#ccc",
+		"Order": 44
+	}, {
+		"Name": "btnPrimaryBackground",
+		"Category": "Buttons",
+		"Type": "Size",
+		"Title": "Btn Primary Background",
+		"Description": "Btn Primary Background",
+		"DefaultValue": "@linkColor",
+		"Order": 45
+	}, {
+		"Name": "btnPrimaryBackgroundHighlight",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Btn Primary Background Highlight",
+		"Description": "Btn Primary Background Highlight",
+		"DefaultValue": "spin(@btnPrimaryBackground, 20%)",
+		"Order": 46
+	}, {
+		"Name": "btnInfoBackground",
+		"Category": "Buttons",
+		"Type": "Size",
+		"Title": "Btn Info Background",
+		"Description": "Btn Info Background",
+		"DefaultValue": "#5bc0de",
+		"Order": 47
+	}, {
+		"Name": "btnInfoBackgroundHighlight",
+		"Category": "Buttons",
+		"Type": "Size",
+		"Title": "Btn Info Background Highlight",
+		"Description": "Btn Info Background Highlight",
+		"DefaultValue": "#2f96b4",
+		"Order": 48
+	}, {
+		"Name": "btnSuccessBackground",
+		"Category": "Buttons",
+		"Type": "Size",
+		"Title": "Btn Success Background",
+		"Description": "Btn Success Background",
+		"DefaultValue": "#62c462",
+		"Order": 49
+	}, {
+		"Name": "btnSuccessBackgroundHighlight",
+		"Category": "Buttons",
+		"Type": "Size",
+		"Title": "Btn Success Background Highlight",
+		"Description": "Btn Success Background Highlight",
+		"DefaultValue": "#51a351",
+		"Order": 50
+	}, {
+		"Name": "btnWarningBackground",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Btn Warning Background",
+		"Description": "Btn Warning Background",
+		"DefaultValue": "lighten(@orange, 15%)",
+		"Order": 51
+	}, {
+		"Name": "btnWarningBackgroundHighlight",
+		"Category": "Buttons",
+		"Type": "Size",
+		"Title": "Btn Warning Background Highlight",
+		"Description": "Btn Warning Background Highlight",
+		"DefaultValue": "@orange",
+		"Order": 52
+	}, {
+		"Name": "btnDangerBackground",
+		"Category": "Buttons",
+		"Type": "Size",
+		"Title": "Btn Danger Background",
+		"Description": "Btn Danger Background",
+		"DefaultValue": "#ee5f5b",
+		"Order": 53
+	}, {
+		"Name": "btnDangerBackgroundHighlight",
+		"Category": "Buttons",
+		"Type": "Size",
+		"Title": "Btn Danger Background Highlight",
+		"Description": "Btn Danger Background Highlight",
+		"DefaultValue": "#bd362f",
+		"Order": 54
+	}, {
+		"Name": "btnInverseBackground",
+		"Category": "Buttons",
+		"Type": "Size",
+		"Title": "Btn Inverse Background",
+		"Description": "Btn Inverse Background",
+		"DefaultValue": "#444",
+		"Order": 55
+	}, {
+		"Name": "btnInverseBackgroundHighlight",
+		"Category": "Buttons",
+		"Type": "Size",
+		"Title": "Btn Inverse Background Highlight",
+		"Description": "Btn Inverse Background Highlight",
+		"DefaultValue": "@grayDarker",
+		"Order": 56
+	}, {
+		"Name": "inputBackground",
+		"Category": "Forms",
+		"Type": "Size",
+		"Title": "Input Background",
+		"Description": "Input Background",
+		"DefaultValue": "@white",
+		"Order": 57
+	}, {
+		"Name": "inputBorder",
+		"Category": "Forms",
+		"Type": "Size",
+		"Title": "Input Border",
+		"Description": "Input Border",
+		"DefaultValue": "#ccc",
+		"Order": 58
+	}, {
+		"Name": "inputBorderRadius",
+		"Category": "Inputs",
+		"Type": "Size",
+		"Title": "Input Border Radius",
+		"Description": "Input Border Radius",
+		"DefaultValue": "@baseBorderRadius",
+		"Order": 59
+	}, {
+		"Name": "inputDisabledBackground",
+		"Category": "Forms",
+		"Type": "Size",
+		"Title": "Input Disabled Background",
+		"Description": "Input Disabled Background",
+		"DefaultValue": "@grayLighter",
+		"Order": 60
+	}, {
+		"Name": "formActionsBackground",
+		"Category": "Forms",
+		"Type": "Size",
+		"Title": "Form Actions Background",
+		"Description": "Form Actions Background",
+		"DefaultValue": "#f5f5f5",
+		"Order": 61
+	}, {
+		"Name": "inputHeight",
+		"Category": "Forms",
+		"Type": "Size",
+		"Title": "Input Height",
+		"Description": "Input Height",
+		"DefaultValue": "@baseLineHeight + 10px",
+		"Order": 62
+	}, {
+		"Name": "dropdownBackground",
+		"Category": "Dropdowns",
+		"Type": "Size",
+		"Title": "Dropdown Background",
+		"Description": "Dropdown Background",
+		"DefaultValue": "@white",
+		"Order": 63
+	}, {
+		"Name": "dropdownBorder",
+		"Category": "Dropdowns",
+		"Type": "Size",
+		"Title": "Dropdown Border",
+		"Description": "Dropdown Border",
+		"DefaultValue": "rgba(0,0,0,.2)",
+		"Order": 64
+	}, {
+		"Name": "dropdownDividerTop",
+		"Category": "Dropdowns",
+		"Type": "Size",
+		"Title": "Dropdown Divider Top",
+		"Description": "Dropdown Divider Top",
+		"DefaultValue": "#e5e5e5",
+		"Order": 65
+	}, {
+		"Name": "dropdownDividerBottom",
+		"Category": "Dropdowns",
+		"Type": "Size",
+		"Title": "Dropdown Divider Bottom",
+		"Description": "Dropdown Divider Bottom",
+		"DefaultValue": "@white",
+		"Order": 66
+	}, {
+		"Name": "dropdownLinkColor",
+		"Category": "Dropdowns",
+		"Type": "Size",
+		"Title": "Dropdown Link Color",
+		"Description": "Dropdown Link Color",
+		"DefaultValue": "@grayDark",
+		"Order": 67
+	}, {
+		"Name": "dropdownLinkColorHover",
+		"Category": "Dropdowns",
+		"Type": "Size",
+		"Title": "Dropdown Link Color Hover",
+		"Description": "Dropdown Link Color Hover",
+		"DefaultValue": "@white",
+		"Order": 68
+	}, {
+		"Name": "dropdownLinkColorActive",
+		"Category": "Dropdowns",
+		"Type": "Size",
+		"Title": "Dropdown Link Color Active",
+		"Description": "Dropdown Link Color Active",
+		"DefaultValue": "@white",
+		"Order": 69
+	}, {
+		"Name": "dropdownLinkBackgroundActive",
+		"Category": "Dropdowns",
+		"Type": "Size",
+		"Title": "Dropdown Link Background Active",
+		"Description": "Dropdown Link Background Active",
+		"DefaultValue": "@linkColor",
+		"Order": 70
+	}, {
+		"Name": "dropdownLinkBackgroundHover",
+		"Category": "Dropdowns",
+		"Type": "Size",
+		"Title": "Dropdown Link Background Hover",
+		"Description": "Dropdown Link Background Hover",
+		"DefaultValue": "@dropdownLinkBackgroundActive",
+		"Order": 71
+	}, {
+		"Name": "zindexDropdown",
+		"Category": "Z-Indexes",
+		"Type": "Size",
+		"Title": "Zindex Dropdown",
+		"Description": "Zindex Dropdown",
+		"DefaultValue": "1000",
+		"Order": 72
+	}, {
+		"Name": "zindexPopover",
+		"Category": "Z-Indexes",
+		"Type": "Size",
+		"Title": "Zindex Popover",
+		"Description": "Zindex Popover",
+		"DefaultValue": "1010",
+		"Order": 73
+	}, {
+		"Name": "zindexTooltip",
+		"Category": "Z-Indexes",
+		"Type": "Size",
+		"Title": "Zindex Tooltip",
+		"Description": "Zindex Tooltip",
+		"DefaultValue": "1030",
+		"Order": 74
+	}, {
+		"Name": "zindexFixedNavbar",
+		"Category": "Z-Indexes",
+		"Type": "Size",
+		"Title": "Zindex Fixed Navbar",
+		"Description": "Zindex Fixed Navbar",
+		"DefaultValue": "1030",
+		"Order": 75
+	}, {
+		"Name": "zindexModalBackdrop",
+		"Category": "Z-Indexes",
+		"Type": "Size",
+		"Title": "Zindex Modal Backdrop",
+		"Description": "Zindex Modal Backdrop",
+		"DefaultValue": "1040",
+		"Order": 76
+	}, {
+		"Name": "zindexModal",
+		"Category": "Z-Indexes",
+		"Type": "Size",
+		"Title": "Zindex Modal",
+		"Description": "Zindex Modal",
+		"DefaultValue": "1050",
+		"Order": 77
+	}, {
+		"Name": "iconSpritePath",
+		"Category": "Icons",
+		"Type": "Size",
+		"Title": "Icon Sprite Path",
+		"Description": "Icon Sprite Path",
+		"DefaultValue": "\"../img/glyphicons-halflings.png\"",
+		"Order": 78
+	}, {
+		"Name": "iconWhiteSpritePath",
+		"Category": "Icons",
+		"Type": "Size",
+		"Title": "Icon White Sprite Path",
+		"Description": "Icon White Sprite Path",
+		"DefaultValue": "\"../img/glyphicons-halflings-white.png\"",
+		"Order": 79
+	}, {
+		"Name": "placeholderText",
+		"Category": "Forms",
+		"Type": "Size",
+		"Title": "Placeholder Text",
+		"Description": "Placeholder Text",
+		"DefaultValue": "@grayLight",
+		"Order": 80
+	}, {
+		"Name": "hrBorder",
+		"Category": "Borders",
+		"Type": "Size",
+		"Title": "Hr Border",
+		"Description": "Hr Border",
+		"DefaultValue": "@grayLighter",
+		"Order": 81
+	}, {
+		"Name": "horizontalComponentOffset",
+		"Category": "Scaffolding",
+		"Type": "Size",
+		"Title": "Horizontal Component Offset",
+		"Description": "Horizontal Component Offset",
+		"DefaultValue": "180px",
+		"Order": 82
+	}, {
+		"Name": "wellBackground",
+		"Category": "Scaffolding",
+		"Type": "Size",
+		"Title": "Well Background",
+		"Description": "Well Background",
+		"DefaultValue": "#f5f5f5",
+		"Order": 83
+	}, {
+		"Name": "navbarCollapseWidth",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Collapse Width",
+		"Description": "Navbar Collapse Width",
+		"DefaultValue": "979px",
+		"Order": 84
+	}, {
+		"Name": "navbarCollapseDesktopWidth",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Navbar Collapse Desktop Width",
+		"Description": "Navbar Collapse Desktop Width",
+		"DefaultValue": "@navbarCollapseWidth + 1",
+		"Order": 85
+	}, {
+		"Name": "navbarHeight",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Height",
+		"Description": "Navbar Height",
+		"DefaultValue": "40px",
+		"Order": 86
+	}, {
+		"Name": "navbarBackgroundHighlight",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Background Highlight",
+		"Description": "Navbar Background Highlight",
+		"DefaultValue": "#ffffff",
+		"Order": 87
+	}, {
+		"Name": "navbarBackground",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Background",
+		"Description": "Navbar Background",
+		"DefaultValue": "darken(@navbarBackgroundHighlight, 5%)",
+		"Order": 88
+	}, {
+		"Name": "navbarBorder",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Border",
+		"Description": "Navbar Border",
+		"DefaultValue": "darken(@navbarBackground, 12%)",
+		"Order": 89
+	}, {
+		"Name": "navbarText",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Text",
+		"Description": "Navbar Text",
+		"DefaultValue": "#777",
+		"Order": 90
+	}, {
+		"Name": "navbarLinkColor",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Link Color",
+		"Description": "Navbar Link Color",
+		"DefaultValue": "#777",
+		"Order": 91
+	}, {
+		"Name": "navbarLinkColorHover",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Link Color Hover",
+		"Description": "Navbar Link Color Hover",
+		"DefaultValue": "@grayDark",
+		"Order": 92
+	}, {
+		"Name": "navbarLinkColorActive",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Link Color Active",
+		"Description": "Navbar Link Color Active",
+		"DefaultValue": "@gray",
+		"Order": 93
+	}, {
+		"Name": "navbarLinkBackgroundHover",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Link Background Hover",
+		"Description": "Navbar Link Background Hover",
+		"DefaultValue": "transparent",
+		"Order": 94
+	}, {
+		"Name": "navbarLinkBackgroundActive",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Link Background Active",
+		"Description": "Navbar Link Background Active",
+		"DefaultValue": "darken(@navbarBackground, 5%)",
+		"Order": 95
+	}, {
+		"Name": "navbarBrandColor",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Brand Color",
+		"Description": "Navbar Brand Color",
+		"DefaultValue": "@navbarLinkColor",
+		"Order": 96
+	}, {
+		"Name": "navbarInverseBackground",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Inverse Background",
+		"Description": "Navbar Inverse Background",
+		"DefaultValue": "#111111",
+		"Order": 97
+	}, {
+		"Name": "navbarInverseBackgroundHighlight",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Inverse Background Highlight",
+		"Description": "Navbar Inverse Background Highlight",
+		"DefaultValue": "#222222",
+		"Order": 98
+	}, {
+		"Name": "navbarInverseBorder",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Inverse Border",
+		"Description": "Navbar Inverse Border",
+		"DefaultValue": "#252525",
+		"Order": 99
+	}, {
+		"Name": "navbarInverseText",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Inverse Text",
+		"Description": "Navbar Inverse Text",
+		"DefaultValue": "@grayLight",
+		"Order": 100
+	}, {
+		"Name": "navbarInverseLinkColor",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Inverse Link Color",
+		"Description": "Navbar Inverse Link Color",
+		"DefaultValue": "@grayLight",
+		"Order": 101
+	}, {
+		"Name": "navbarInverseLinkColorHover",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Inverse Link Color Hover",
+		"Description": "Navbar Inverse Link Color Hover",
+		"DefaultValue": "@white",
+		"Order": 102
+	}, {
+		"Name": "navbarInverseLinkColorActive",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Inverse Link Color Active",
+		"Description": "Navbar Inverse Link Color Active",
+		"DefaultValue": "@navbarInverseLinkColorHover",
+		"Order": 103
+	}, {
+		"Name": "navbarInverseLinkBackgroundHover",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Inverse Link Background Hover",
+		"Description": "Navbar Inverse Link Background Hover",
+		"DefaultValue": "transparent",
+		"Order": 104
+	}, {
+		"Name": "navbarInverseLinkBackgroundActive",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Inverse Link Background Active",
+		"Description": "Navbar Inverse Link Background Active",
+		"DefaultValue": "@navbarInverseBackground",
+		"Order": 105
+	}, {
+		"Name": "navbarInverseSearchBackground",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Navbar Inverse Search Background",
+		"Description": "Navbar Inverse Search Background",
+		"DefaultValue": "lighten(@navbarInverseBackground, 25%)",
+		"Order": 106
+	}, {
+		"Name": "navbarInverseSearchBackgroundFocus",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Inverse Search Background Focus",
+		"Description": "Navbar Inverse Search Background Focus",
+		"DefaultValue": "@white",
+		"Order": 107
+	}, {
+		"Name": "navbarInverseSearchBorder",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Inverse Search Border",
+		"Description": "Navbar Inverse Search Border",
+		"DefaultValue": "@navbarInverseBackground",
+		"Order": 108
+	}, {
+		"Name": "navbarInverseSearchPlaceholderColor",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Inverse Search Placeholder Color",
+		"Description": "Navbar Inverse Search Placeholder Color",
+		"DefaultValue": "#ccc",
+		"Order": 109
+	}, {
+		"Name": "navbarInverseBrandColor",
+		"Category": "Navbar",
+		"Type": "Size",
+		"Title": "Navbar Inverse Brand Color",
+		"Description": "Navbar Inverse Brand Color",
+		"DefaultValue": "@navbarInverseLinkColor",
+		"Order": 110
+	}, {
+		"Name": "paginationBackground",
+		"Category": "Pagination",
+		"Type": "Size",
+		"Title": "Pagination Background",
+		"Description": "Pagination Background",
+		"DefaultValue": "#fff",
+		"Order": 111
+	}, {
+		"Name": "paginationBorder",
+		"Category": "Pagination",
+		"Type": "Size",
+		"Title": "Pagination Border",
+		"Description": "Pagination Border",
+		"DefaultValue": "#ddd",
+		"Order": 112
+	}, {
+		"Name": "paginationActiveBackground",
+		"Category": "Pagination",
+		"Type": "Size",
+		"Title": "Pagination Active Background",
+		"Description": "Pagination Active Background",
+		"DefaultValue": "#f5f5f5",
+		"Order": 113
+	}, {
+		"Name": "heroUnitBackground",
+		"Category": "Hero Unit",
+		"Type": "Size",
+		"Title": "Hero Unit Background",
+		"Description": "Hero Unit Background",
+		"DefaultValue": "@grayLighter",
+		"Order": 114
+	}, {
+		"Name": "heroUnitHeadingColor",
+		"Category": "Hero Unit",
+		"Type": "Size",
+		"Title": "Hero Unit Heading Color",
+		"Description": "Hero Unit Heading Color",
+		"DefaultValue": "inherit",
+		"Order": 115
+	}, {
+		"Name": "heroUnitLeadColor",
+		"Category": "Hero Unit",
+		"Type": "Size",
+		"Title": "Hero Unit Lead Color",
+		"Description": "Hero Unit Lead Color",
+		"DefaultValue": "inherit",
+		"Order": 116
+	}, {
+		"Name": "warningText",
+		"Category": "Alerts",
+		"Type": "Size",
+		"Title": "Warning Text",
+		"Description": "Warning Text",
+		"DefaultValue": "#c09853",
+		"Order": 117
+	}, {
+		"Name": "warningBackground",
+		"Category": "Alerts",
+		"Type": "Size",
+		"Title": "Warning Background",
+		"Description": "Warning Background",
+		"DefaultValue": "#fcf8e3",
+		"Order": 118
+	}, {
+		"Name": "warningBorder",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Warning Border",
+		"Description": "Warning Border",
+		"DefaultValue": "darken(spin(@warningBackground, -10), 3%)",
+		"Order": 119
+	}, {
+		"Name": "errorText",
+		"Category": "Alerts",
+		"Type": "Size",
+		"Title": "Error Text",
+		"Description": "Error Text",
+		"DefaultValue": "#b94a48",
+		"Order": 120
+	}, {
+		"Name": "errorBackground",
+		"Category": "Alerts",
+		"Type": "Size",
+		"Title": "Error Background",
+		"Description": "Error Background",
+		"DefaultValue": "#f2dede",
+		"Order": 121
+	}, {
+		"Name": "errorBorder",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Error Border",
+		"Description": "Error Border",
+		"DefaultValue": "darken(spin(@errorBackground, -10), 3%)",
+		"Order": 122
+	}, {
+		"Name": "successText",
+		"Category": "Alerts",
+		"Type": "Size",
+		"Title": "Success Text",
+		"Description": "Success Text",
+		"DefaultValue": "#468847",
+		"Order": 123
+	}, {
+		"Name": "successBackground",
+		"Category": "Alerts",
+		"Type": "Size",
+		"Title": "Success Background",
+		"Description": "Success Background",
+		"DefaultValue": "#dff0d8",
+		"Order": 124
+	}, {
+		"Name": "successBorder",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Success Border",
+		"Description": "Success Border",
+		"DefaultValue": "darken(spin(@successBackground, -10), 5%)",
+		"Order": 125
+	}, {
+		"Name": "infoText",
+		"Category": "Alerts",
+		"Type": "Size",
+		"Title": "Info Text",
+		"Description": "Info Text",
+		"DefaultValue": "#3a87ad",
+		"Order": 126
+	}, {
+		"Name": "infoBackground",
+		"Category": "Alerts",
+		"Type": "Size",
+		"Title": "Info Background",
+		"Description": "Info Background",
+		"DefaultValue": "#d9edf7",
+		"Order": 127
+	}, {
+		"Name": "infoBorder",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Info Border",
+		"Description": "Info Border",
+		"DefaultValue": "darken(spin(@infoBackground, -10), 7%)",
+		"Order": 128
+	}, {
+		"Name": "tooltipColor",
+		"Category": "Tooltips",
+		"Type": "Size",
+		"Title": "Tooltip Color",
+		"Description": "Tooltip Color",
+		"DefaultValue": "#fff",
+		"Order": 129
+	}, {
+		"Name": "tooltipBackground",
+		"Category": "Tooltips",
+		"Type": "Size",
+		"Title": "Tooltip Background",
+		"Description": "Tooltip Background",
+		"DefaultValue": "#000",
+		"Order": 130
+	}, {
+		"Name": "tooltipArrowWidth",
+		"Category": "Tooltips",
+		"Type": "Size",
+		"Title": "Tooltip Arrow Width",
+		"Description": "Tooltip Arrow Width",
+		"DefaultValue": "5px",
+		"Order": 131
+	}, {
+		"Name": "tooltipArrowColor",
+		"Category": "Tooltips",
+		"Type": "Size",
+		"Title": "Tooltip Arrow Color",
+		"Description": "Tooltip Arrow Color",
+		"DefaultValue": "@tooltipBackground",
+		"Order": 132
+	}, {
+		"Name": "popoverBackground",
+		"Category": "Popovers",
+		"Type": "Size",
+		"Title": "Popover Background",
+		"Description": "Popover Background",
+		"DefaultValue": "#fff",
+		"Order": 133
+	}, {
+		"Name": "popoverArrowWidth",
+		"Category": "Popovers",
+		"Type": "Size",
+		"Title": "Popover Arrow Width",
+		"Description": "Popover Arrow Width",
+		"DefaultValue": "10px",
+		"Order": 134
+	}, {
+		"Name": "popoverArrowColor",
+		"Category": "Popovers",
+		"Type": "Size",
+		"Title": "Popover Arrow Color",
+		"Description": "Popover Arrow Color",
+		"DefaultValue": "#fff",
+		"Order": 135
+	}, {
+		"Name": "popoverTitleBackground",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Popover Title Background",
+		"Description": "Popover Title Background",
+		"DefaultValue": "darken(@popoverBackground, 3%)",
+		"Order": 136
+	}, {
+		"Name": "popoverArrowOuterWidth",
+		"Category": "Uncategorized",
+		"Type": "Size",
+		"Title": "Popover Arrow Outer Width",
+		"Description": "Popover Arrow Outer Width",
+		"DefaultValue": "@popoverArrowWidth + 1",
+		"Order": 137
+	}, {
+		"Name": "popoverArrowOuterColor",
+		"Category": "Popovers",
+		"Type": "Size",
+		"Title": "Popover Arrow Outer Color",
+		"Description": "Popover Arrow Outer Color",
+		"DefaultValue": "rgba(0,0,0,.25)",
+		"Order": 138
+	}, {
+		"Name": "gridColumns",
+		"Category": "Grid",
+		"Type": "Size",
+		"Title": "Grid Columns",
+		"Description": "Grid Columns",
+		"DefaultValue": "12",
+		"Order": 139
+	}, {
+		"Name": "gridColumnWidth",
+		"Category": "Grid",
+		"Type": "Size",
+		"Title": "Grid Column Width",
+		"Description": "Grid Column Width",
+		"DefaultValue": "60px",
+		"Order": 140
+	}, {
+		"Name": "gridGutterWidth",
+		"Category": "Grid",
+		"Type": "Size",
+		"Title": "Grid Gutter Width",
+		"Description": "Grid Gutter Width",
+		"DefaultValue": "20px",
+		"Order": 141
+	}, {
+		"Name": "gridRowWidth",
+		"Category": "Grid",
+		"Type": "Size",
+		"Title": "Grid Row Width",
+		"Description": "Grid Row Width",
+		"DefaultValue": "(@gridColumns * @gridColumnWidth) + (@gridGutterWidth * (@gridColumns - 1))",
+		"Order": 142
+	}, {
+		"Name": "gridColumnWidth1200",
+		"Category": "Grid",
+		"Type": "Size",
+		"Title": "Grid Column Width1200",
+		"Description": "Grid Column Width1200",
+		"DefaultValue": "70px",
+		"Order": 143
+	}, {
+		"Name": "gridGutterWidth1200",
+		"Category": "Grid",
+		"Type": "Size",
+		"Title": "Grid Gutter Width1200",
+		"Description": "Grid Gutter Width1200",
+		"DefaultValue": "30px",
+		"Order": 144
+	}, {
+		"Name": "gridRowWidth1200",
+		"Category": "Grid",
+		"Type": "Size",
+		"Title": "Grid Row Width1200",
+		"Description": "Grid Row Width1200",
+		"DefaultValue": "(@gridColumns * @gridColumnWidth1200) + (@gridGutterWidth1200 * (@gridColumns - 1))",
+		"Order": 145
+	}, {
+		"Name": "gridColumnWidth768",
+		"Category": "Grid",
+		"Type": "Size",
+		"Title": "Grid Column Width768",
+		"Description": "Grid Column Width768",
+		"DefaultValue": "42px",
+		"Order": 146
+	}, {
+		"Name": "gridGutterWidth768",
+		"Category": "Grid",
+		"Type": "Size",
+		"Title": "Grid Gutter Width768",
+		"Description": "Grid Gutter Width768",
+		"DefaultValue": "20px",
+		"Order": 147
+	}, {
+		"Name": "gridRowWidth768",
+		"Category": "Grid",
+		"Type": "Size",
+		"Title": "Grid Row Width768",
+		"Description": "Grid Row Width768",
+		"DefaultValue": "(@gridColumns * @gridColumnWidth768) + (@gridGutterWidth768 * (@gridColumns - 1))",
+		"Order": 148
+	}, {
+		"Name": "fluidGridColumnWidth",
+		"Category": "Grid",
+		"Type": "Size",
+		"Title": "Fluid Grid Column Width",
+		"Description": "Fluid Grid Column Width",
+		"DefaultValue": "percentage(@gridColumnWidth/@gridRowWidth)",
+		"Order": 149
+	}, {
+		"Name": "fluidGridGutterWidth",
+		"Category": "Grid",
+		"Type": "Size",
+		"Title": "Fluid Grid Gutter Width",
+		"Description": "Fluid Grid Gutter Width",
+		"DefaultValue": "percentage(@gridGutterWidth/@gridRowWidth)",
+		"Order": 150
+	}, {
+		"Name": "fluidGridColumnWidth1200",
+		"Category": "Grid",
+		"Type": "Size",
+		"Title": "Fluid Grid Column Width1200",
+		"Description": "Fluid Grid Column Width1200",
+		"DefaultValue": "percentage(@gridColumnWidth1200/@gridRowWidth1200)",
+		"Order": 151
+	}, {
+		"Name": "fluidGridGutterWidth1200",
+		"Category": "Grid",
+		"Type": "Size",
+		"Title": "Fluid Grid Gutter Width1200",
+		"Description": "Fluid Grid Gutter Width1200",
+		"DefaultValue": "percentage(@gridGutterWidth1200/@gridRowWidth1200)",
+		"Order": 152
+	}, {
+		"Name": "fluidGridColumnWidth768",
+		"Category": "Grid",
+		"Type": "Size",
+		"Title": "Fluid Grid Column Width768",
+		"Description": "Fluid Grid Column Width768",
+		"DefaultValue": "percentage(@gridColumnWidth768/@gridRowWidth768)",
+		"Order": 153
+	}, {
+		"Name": "fluidGridGutterWidth768",
+		"Category": "Grid",
+		"Type": "Size",
+		"Title": "Fluid Grid Gutter Width768",
+		"Description": "Fluid Grid Gutter Width768",
+		"DefaultValue": "percentage(@gridGutterWidth768/@gridRowWidth768)",
+		"Order": 154
+	}]
+}

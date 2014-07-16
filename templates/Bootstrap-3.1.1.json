@@ -1,0 +1,2971 @@
+{
+
+    "Variables": [{
+"Name":"white",
+"Category":"Colors",
+"Type":"color",
+"Title":"White",
+"Description":"White",
+"DefaultValue":"#fff",
+"Order":0
+},{
+"Name":"black",
+"Category":"Colors",
+"Type":"color",
+"Title":"Black",
+"Description":"Black",
+"DefaultValue":"#000",
+"Order":1
+},{
+"Name":"gray-darker",
+"Category":"Colors",
+"Type":"color",
+"Title":"Gray darker",
+"Description":"Gray darker",
+"DefaultValue":"lighten(#000, 13.5%)",
+"Order":2
+},{
+"Name":"gray-dark",
+"Category":"Colors",
+"Type":"color",
+"Title":"Gray dark",
+"Description":"Gray dark",
+"DefaultValue":"lighten(#000, 20%)",
+"Order":3
+},{
+"Name":"gray",
+"Category":"Colors",
+"Type":"color",
+"Title":"Gray",
+"Description":"Gray",
+"DefaultValue":"lighten(#000, 33.5%)",
+"Order":4
+},{
+"Name":"gray-light",
+"Category":"Colors",
+"Type":"color",
+"Title":"Gray light",
+"Description":"Gray light",
+"DefaultValue":"lighten(#000, 60%)",
+"Order":5
+},{
+"Name":"gray-lighter",
+"Category":"Colors",
+"Type":"color",
+"Title":"Gray lighter",
+"Description":"Gray lighter",
+"DefaultValue":"lighten(#000, 93.5%)",
+"Order":6
+},{
+"Name":"brand-primary",
+"Category":"Colors",
+"Type":"color",
+"Title":"Brand primary",
+"Description":"Brand primary",
+"DefaultValue":"#428bca",
+"Order":7
+},{
+"Name":"brand-success",
+"Category":"Colors",
+"Type":"color",
+"Title":"Brand success",
+"Description":"Brand success",
+"DefaultValue":"#5cb85c",
+"Order":8
+},{
+"Name":"brand-info",
+"Category":"Colors",
+"Type":"color",
+"Title":"Brand info",
+"Description":"Brand info",
+"DefaultValue":"#5bc0de",
+"Order":9
+},{
+"Name":"brand-warning",
+"Category":"Colors",
+"Type":"color",
+"Title":"Brand warning",
+"Description":"Brand warning",
+"DefaultValue":"#f0ad4e",
+"Order":10
+},{
+"Name":"brand-danger",
+"Category":"Colors",
+"Type":"color",
+"Title":"Brand danger",
+"Description":"Brand danger",
+"DefaultValue":"#d9534f",
+"Order":11
+},{
+"Name":"body-bg",
+"Category":"Colors",
+"Type":"color",
+"Title":"Body bg",
+"Description":"Body bg",
+"DefaultValue":"#fff",
+"Order":12
+},{
+"Name":"text-color",
+"Category":"Colors",
+"Type":"color",
+"Title":"Text color",
+"Description":"Text color",
+"DefaultValue":"@gray-dark",
+"Order":13
+},{
+"Name":"link-color",
+"Category":"Colors",
+"Type":"color",
+"Title":"Link color",
+"Description":"Link color",
+"DefaultValue":"@brand-primary",
+"Order":14
+},{
+"Name":"link-hover-color",
+"Category":"Colors",
+"Type":"color",
+"Title":"Link hover color",
+"Description":"Link hover color",
+"DefaultValue":"darken(@link-color, 15%)",
+"Order":15
+},{
+"Name":"font-family-sans-serif",
+"Category":"Typography",
+"Type":"font-family",
+"Title":"Font family sans serif",
+"Description":"Font family sans serif",
+"DefaultValue":"\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+"Order":16
+},{
+"Name":"font-family-serif",
+"Category":"Typography",
+"Type":"font-family",
+"Title":"Font family serif",
+"Description":"Font family serif",
+"DefaultValue":"Georgia, \"Times New Roman\", Times, serif",
+"Order":17
+},{
+"Name":"font-family-monospace",
+"Category":"Typography",
+"Type":"font-family",
+"Title":"Font family monospace",
+"Description":"Font family monospace",
+"DefaultValue":"Menlo, Monaco, Consolas, \"Courier New\", monospace",
+"Order":18
+},{
+"Name":"font-family-base",
+"Category":"Typography",
+"Type":"font-family",
+"Title":"Font family base",
+"Description":"Font family base",
+"DefaultValue":"@font-family-sans-serif",
+"Order":19
+},{
+"Name":"font-size-base",
+"Category":"Font",
+"Type":"color",
+"Title":"Font size base",
+"Description":"Font size base",
+"DefaultValue":"14px",
+"Order":20
+},{
+"Name":"font-size-large",
+"Category":"Typography",
+"Type":"size-scalar",
+"Title":"Font size large",
+"Description":"Font size large",
+"DefaultValue":"ceil((@font-size-base * 1.25))",
+"Order":21
+},{
+"Name":"font-size-small",
+"Category":"Typography",
+"Type":"size-scalar",
+"Title":"Font size small",
+"Description":"Font size small",
+"DefaultValue":"ceil((@font-size-base * 0.85))",
+"Order":22
+},{
+"Name":"font-size-h1",
+"Category":"Typography",
+"Type":"size-scalar",
+"Title":"Font size h1",
+"Description":"Font size h1",
+"DefaultValue":"floor((@font-size-base * 2.6))",
+"Order":23
+},{
+"Name":"font-size-h2",
+"Category":"Typography",
+"Type":"size-scalar",
+"Title":"Font size h2",
+"Description":"Font size h2",
+"DefaultValue":"floor((@font-size-base * 2.15))",
+"Order":24
+},{
+"Name":"font-size-h3",
+"Category":"Typography",
+"Type":"size-scalar",
+"Title":"Font size h3",
+"Description":"Font size h3",
+"DefaultValue":"ceil((@font-size-base * 1.7))",
+"Order":25
+},{
+"Name":"font-size-h4",
+"Category":"Typography",
+"Type":"size-scalar",
+"Title":"Font size h4",
+"Description":"Font size h4",
+"DefaultValue":"ceil((@font-size-base * 1.25))",
+"Order":26
+},{
+"Name":"font-size-h5",
+"Category":"Typography",
+"Type":"size-scalar",
+"Title":"Font size h5",
+"Description":"Font size h5",
+"DefaultValue":"@font-size-base",
+"Order":27
+},{
+"Name":"font-size-h6",
+"Category":"Typography",
+"Type":"size-scalar",
+"Title":"Font size h6",
+"Description":"Font size h6",
+"DefaultValue":"ceil((@font-size-base * 0.85))",
+"Order":28
+},{
+"Name":"line-height-base",
+"Category":"Typography",
+"Type":"size-scalar",
+"Title":"Line height base",
+"Description":"Line height base",
+"DefaultValue":"1.428571429",
+"Order":29
+},{
+"Name":"line-height-computed",
+"Category":"Typography",
+"Type":"size-scalar",
+"Title":"Line height computed",
+"Description":"Line height computed",
+"DefaultValue":"floor((@font-size-base * @line-height-base))",
+"Order":30
+},{
+"Name":"headings-font-family",
+"Category":"Typography",
+"Type":"font-family",
+"Title":"Headings font family",
+"Description":"Headings font family",
+"DefaultValue":"inherit",
+"Order":31
+},{
+"Name":"headings-font-weight",
+"Category":"Typography",
+"Type":"font-weight",
+"Title":"Headings font weight",
+"Description":"Headings font weight",
+"DefaultValue":"500",
+"Order":32
+},{
+"Name":"headings-line-height",
+"Category":"Typography",
+"Type":"size-scalar",
+"Title":"Headings line height",
+"Description":"Headings line height",
+"DefaultValue":"1.1",
+"Order":33
+},{
+"Name":"headings-color",
+"Category":"Typography",
+"Type":"color",
+"Title":"Headings color",
+"Description":"Headings color",
+"DefaultValue":"inherit",
+"Order":34
+},{
+"Name":"icon-font-path",
+"Category":"Icons",
+"Type":"url",
+"Title":"Icon font path",
+"Description":"Icon font path",
+"DefaultValue":"\"../fonts/\"",
+"Order":35
+},{
+"Name":"icon-font-name",
+"Category":"Icons",
+"Type":"font-family",
+"Title":"Icon font name",
+"Description":"Icon font name",
+"DefaultValue":"\"glyphicons-halflings-regular\"",
+"Order":36
+},{
+"Name":"icon-font-svg-id",
+"Category":"Icons",
+"Type":"font-family",
+"Title":"Icon font svg id",
+"Description":"Icon font svg id",
+"DefaultValue":"\"glyphicons_halflingsregular\"",
+"Order":37
+},{
+"Name":"padding-base-vertical",
+"Category":"Padding",
+"Type":"size-scalar",
+"Title":"Padding base vertical",
+"Description":"Padding base vertical",
+"DefaultValue":"6px",
+"Order":38
+},{
+"Name":"padding-base-horizontal",
+"Category":"Padding",
+"Type":"size-scalar",
+"Title":"Padding base horizontal",
+"Description":"Padding base horizontal",
+"DefaultValue":"12px",
+"Order":39
+},{
+"Name":"padding-large-vertical",
+"Category":"Padding",
+"Type":"size-scalar",
+"Title":"Padding large vertical",
+"Description":"Padding large vertical",
+"DefaultValue":"10px",
+"Order":40
+},{
+"Name":"padding-large-horizontal",
+"Category":"Padding",
+"Type":"size-scalar",
+"Title":"Padding large horizontal",
+"Description":"Padding large horizontal",
+"DefaultValue":"16px",
+"Order":41
+},{
+"Name":"padding-small-vertical",
+"Category":"Padding",
+"Type":"size-scalar",
+"Title":"Padding small vertical",
+"Description":"Padding small vertical",
+"DefaultValue":"5px",
+"Order":42
+},{
+"Name":"padding-small-horizontal",
+"Category":"Padding",
+"Type":"size-scalar",
+"Title":"Padding small horizontal",
+"Description":"Padding small horizontal",
+"DefaultValue":"10px",
+"Order":43
+},{
+"Name":"padding-xs-vertical",
+"Category":"Padding",
+"Type":"size-scalar",
+"Title":"Padding xs vertical",
+"Description":"Padding xs vertical",
+"DefaultValue":"1px",
+"Order":44
+},{
+"Name":"padding-xs-horizontal",
+"Category":"Padding",
+"Type":"size-scalar",
+"Title":"Padding xs horizontal",
+"Description":"Padding xs horizontal",
+"DefaultValue":"5px",
+"Order":45
+},{
+"Name":"line-height-large",
+"Category":"Line",
+"Type":"size-scalar",
+"Title":"Line height large",
+"Description":"Line height large",
+"DefaultValue":"1.33",
+"Order":46
+},{
+"Name":"line-height-small",
+"Category":"Line",
+"Type":"size-scalar",
+"Title":"Line height small",
+"Description":"Line height small",
+"DefaultValue":"1.5",
+"Order":47
+},{
+"Name":"border-radius-base",
+"Category":"Border",
+"Type":"size-box",
+"Title":"Border radius base",
+"Description":"Border radius base",
+"DefaultValue":"4px",
+"Order":48
+},{
+"Name":"border-radius-large",
+"Category":"Border",
+"Type":"size-box",
+"Title":"Border radius large",
+"Description":"Border radius large",
+"DefaultValue":"6px",
+"Order":49
+},{
+"Name":"border-radius-small",
+"Category":"Border",
+"Type":"size-box",
+"Title":"Border radius small",
+"Description":"Border radius small",
+"DefaultValue":"3px",
+"Order":50
+},{
+"Name":"component-active-color",
+"Category":"Component",
+"Type":"color",
+"Title":"Component active color",
+"Description":"Component active color",
+"DefaultValue":"#fff",
+"Order":51
+},{
+"Name":"component-active-bg",
+"Category":"Component",
+"Type":"color",
+"Title":"Component active bg",
+"Description":"Component active bg",
+"DefaultValue":"@brand-primary",
+"Order":52
+},{
+"Name":"caret-width-base",
+"Category":"Caret",
+"Type":"size-scalar",
+"Title":"Caret width base",
+"Description":"Caret width base",
+"DefaultValue":"4px",
+"Order":53
+},{
+"Name":"caret-width-large",
+"Category":"Caret",
+"Type":"size-scalar",
+"Title":"Caret width large",
+"Description":"Caret width large",
+"DefaultValue":"5px",
+"Order":54
+},{
+"Name":"table-cell-padding",
+"Category":"Table",
+"Type":"size-box",
+"Title":"Table cell padding",
+"Description":"Table cell padding",
+"DefaultValue":"8px",
+"Order":55
+},{
+"Name":"table-condensed-cell-padding",
+"Category":"Table",
+"Type":"size-box",
+"Title":"Table condensed cell padding",
+"Description":"Table condensed cell padding",
+"DefaultValue":"5px",
+"Order":56
+},{
+"Name":"table-bg",
+"Category":"Table",
+"Type":"color",
+"Title":"Table bg",
+"Description":"Table bg",
+"DefaultValue":"transparent",
+"Order":57
+},{
+"Name":"table-bg-accent",
+"Category":"Table",
+"Type":"color",
+"Title":"Table bg accent",
+"Description":"Table bg accent",
+"DefaultValue":"#f9f9f9",
+"Order":58
+},{
+"Name":"table-bg-hover",
+"Category":"Table",
+"Type":"color",
+"Title":"Table bg hover",
+"Description":"Table bg hover",
+"DefaultValue":"#f5f5f5",
+"Order":59
+},{
+"Name":"table-bg-active",
+"Category":"Table",
+"Type":"color",
+"Title":"Table bg active",
+"Description":"Table bg active",
+"DefaultValue":"@table-bg-hover",
+"Order":60
+},{
+"Name":"table-border-color",
+"Category":"Table",
+"Type":"color",
+"Title":"Table border color",
+"Description":"Table border color",
+"DefaultValue":"#ddd",
+"Order":61
+},{
+"Name":"btn-font-weight",
+"Category":"Buttons",
+"Type":"font-weight",
+"Title":"Btn font weight",
+"Description":"Btn font weight",
+"DefaultValue":"normal",
+"Order":62
+},{
+"Name":"btn-default-color",
+"Category":"Buttons",
+"Type":"color",
+"Title":"Btn default color",
+"Description":"Btn default color",
+"DefaultValue":"#333",
+"Order":63
+},{
+"Name":"btn-default-bg",
+"Category":"Buttons",
+"Type":"color",
+"Title":"Btn default bg",
+"Description":"Btn default bg",
+"DefaultValue":"#fff",
+"Order":64
+},{
+"Name":"btn-default-border",
+"Category":"Buttons",
+"Type":"color",
+"Title":"Btn default border",
+"Description":"Btn default border",
+"DefaultValue":"#ccc",
+"Order":65
+},{
+"Name":"btn-primary-color",
+"Category":"Buttons",
+"Type":"color",
+"Title":"Btn primary color",
+"Description":"Btn primary color",
+"DefaultValue":"#fff",
+"Order":66
+},{
+"Name":"btn-primary-bg",
+"Category":"Buttons",
+"Type":"color",
+"Title":"Btn primary bg",
+"Description":"Btn primary bg",
+"DefaultValue":"@brand-primary",
+"Order":67
+},{
+"Name":"btn-primary-border",
+"Category":"Buttons",
+"Type":"color",
+"Title":"Btn primary border",
+"Description":"Btn primary border",
+"DefaultValue":"darken(@btn-primary-bg, 5%)",
+"Order":68
+},{
+"Name":"btn-success-color",
+"Category":"Buttons",
+"Type":"color",
+"Title":"Btn success color",
+"Description":"Btn success color",
+"DefaultValue":"#fff",
+"Order":69
+},{
+"Name":"btn-success-bg",
+"Category":"Buttons",
+"Type":"color",
+"Title":"Btn success bg",
+"Description":"Btn success bg",
+"DefaultValue":"@brand-success",
+"Order":70
+},{
+"Name":"btn-success-border",
+"Category":"Buttons",
+"Type":"color",
+"Title":"Btn success border",
+"Description":"Btn success border",
+"DefaultValue":"darken(@btn-success-bg, 5%)",
+"Order":71
+},{
+"Name":"btn-info-color",
+"Category":"Buttons",
+"Type":"color",
+"Title":"Btn info color",
+"Description":"Btn info color",
+"DefaultValue":"#fff",
+"Order":72
+},{
+"Name":"btn-info-bg",
+"Category":"Buttons",
+"Type":"color",
+"Title":"Btn info bg",
+"Description":"Btn info bg",
+"DefaultValue":"@brand-info",
+"Order":73
+},{
+"Name":"btn-info-border",
+"Category":"Buttons",
+"Type":"color",
+"Title":"Btn info border",
+"Description":"Btn info border",
+"DefaultValue":"darken(@btn-info-bg, 5%)",
+"Order":74
+},{
+"Name":"btn-warning-color",
+"Category":"Buttons",
+"Type":"color",
+"Title":"Btn warning color",
+"Description":"Btn warning color",
+"DefaultValue":"#fff",
+"Order":75
+},{
+"Name":"btn-warning-bg",
+"Category":"Buttons",
+"Type":"color",
+"Title":"Btn warning bg",
+"Description":"Btn warning bg",
+"DefaultValue":"@brand-warning",
+"Order":76
+},{
+"Name":"btn-warning-border",
+"Category":"Buttons",
+"Type":"color",
+"Title":"Btn warning border",
+"Description":"Btn warning border",
+"DefaultValue":"darken(@btn-warning-bg, 5%)",
+"Order":77
+},{
+"Name":"btn-danger-color",
+"Category":"Buttons",
+"Type":"color",
+"Title":"Btn danger color",
+"Description":"Btn danger color",
+"DefaultValue":"#fff",
+"Order":78
+},{
+"Name":"btn-danger-bg",
+"Category":"Buttons",
+"Type":"color",
+"Title":"Btn danger bg",
+"Description":"Btn danger bg",
+"DefaultValue":"@brand-danger",
+"Order":79
+},{
+"Name":"btn-danger-border",
+"Category":"Buttons",
+"Type":"color",
+"Title":"Btn danger border",
+"Description":"Btn danger border",
+"DefaultValue":"darken(@btn-danger-bg, 5%)",
+"Order":80
+},{
+"Name":"btn-link-disabled-color",
+"Category":"Buttons",
+"Type":"color",
+"Title":"Btn link disabled color",
+"Description":"Btn link disabled color",
+"DefaultValue":"@gray-light",
+"Order":81
+},{
+"Name":"input-bg",
+"Category":"Inputs",
+"Type":"color",
+"Title":"Input bg",
+"Description":"Input bg",
+"DefaultValue":"#fff",
+"Order":82
+},{
+"Name":"input-bg-disabled",
+"Category":"Inputs",
+"Type":"color",
+"Title":"Input bg disabled",
+"Description":"Input bg disabled",
+"DefaultValue":"@gray-lighter",
+"Order":83
+},{
+"Name":"input-color",
+"Category":"Inputs",
+"Type":"color",
+"Title":"Input color",
+"Description":"Input color",
+"DefaultValue":"@gray",
+"Order":84
+},{
+"Name":"input-border",
+"Category":"Inputs",
+"Type":"color",
+"Title":"Input border",
+"Description":"Input border",
+"DefaultValue":"#ccc",
+"Order":85
+},{
+"Name":"input-border-radius",
+"Category":"Inputs",
+"Type":"size-box",
+"Title":"Input border radius",
+"Description":"Input border radius",
+"DefaultValue":"@border-radius-base",
+"Order":86
+},{
+"Name":"input-border-focus",
+"Category":"Inputs",
+"Type":"color",
+"Title":"Input border focus",
+"Description":"Input border focus",
+"DefaultValue":"#66afe9",
+"Order":87
+},{
+"Name":"input-color-placeholder",
+"Category":"Inputs",
+"Type":"color",
+"Title":"Input color placeholder",
+"Description":"Input color placeholder",
+"DefaultValue":"@gray-light",
+"Order":88
+},{
+"Name":"input-height-base",
+"Category":"Inputs",
+"Type":"size-scalar",
+"Title":"Input height base",
+"Description":"Input height base",
+"DefaultValue":"(@line-height-computed + (@padding-base-vertical * 2) + 2)",
+"Order":89
+},{
+"Name":"input-height-large",
+"Category":"Inputs",
+"Type":"size-scalar",
+"Title":"Input height large",
+"Description":"Input height large",
+"DefaultValue":"(ceil(@font-size-large * @line-height-large) + (@padding-large-vertical * 2) + 2)",
+"Order":90
+},{
+"Name":"input-height-small",
+"Category":"Inputs",
+"Type":"size-scalar",
+"Title":"Input height small",
+"Description":"Input height small",
+"DefaultValue":"(floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 2)",
+"Order":91
+},{
+"Name":"legend-color",
+"Category":"Inputs",
+"Type":"color",
+"Title":"Legend color",
+"Description":"Legend color",
+"DefaultValue":"@gray-dark",
+"Order":92
+},{
+"Name":"legend-border-color",
+"Category":"Inputs",
+"Type":"color",
+"Title":"Legend border color",
+"Description":"Legend border color",
+"DefaultValue":"#e5e5e5",
+"Order":93
+},{
+"Name":"input-group-addon-bg",
+"Category":"Inputs",
+"Type":"color",
+"Title":"Input group addon bg",
+"Description":"Input group addon bg",
+"DefaultValue":"@gray-lighter",
+"Order":94
+},{
+"Name":"input-group-addon-border-color",
+"Category":"Inputs",
+"Type":"color",
+"Title":"Input group addon border color",
+"Description":"Input group addon border color",
+"DefaultValue":"@input-border",
+"Order":95
+},{
+"Name":"dropdown-bg",
+"Category":"Dropdowns",
+"Type":"color",
+"Title":"Dropdown bg",
+"Description":"Dropdown bg",
+"DefaultValue":"#fff",
+"Order":96
+},{
+"Name":"dropdown-border",
+"Category":"Dropdowns",
+"Type":"color",
+"Title":"Dropdown border",
+"Description":"Dropdown border",
+"DefaultValue":"rgba(0,0,0,.15)",
+"Order":97
+},{
+"Name":"dropdown-fallback-border",
+"Category":"Dropdowns",
+"Type":"color",
+"Title":"Dropdown fallback border",
+"Description":"Dropdown fallback border",
+"DefaultValue":"#ccc",
+"Order":98
+},{
+"Name":"dropdown-divider-bg",
+"Category":"Dropdowns",
+"Type":"color",
+"Title":"Dropdown divider bg",
+"Description":"Dropdown divider bg",
+"DefaultValue":"#e5e5e5",
+"Order":99
+},{
+"Name":"dropdown-link-color",
+"Category":"Dropdowns",
+"Type":"color",
+"Title":"Dropdown link color",
+"Description":"Dropdown link color",
+"DefaultValue":"@gray-dark",
+"Order":100
+},{
+"Name":"dropdown-link-hover-color",
+"Category":"Dropdowns",
+"Type":"color",
+"Title":"Dropdown link hover color",
+"Description":"Dropdown link hover color",
+"DefaultValue":"darken(@gray-dark, 5%)",
+"Order":101
+},{
+"Name":"dropdown-link-hover-bg",
+"Category":"Dropdowns",
+"Type":"color",
+"Title":"Dropdown link hover bg",
+"Description":"Dropdown link hover bg",
+"DefaultValue":"#f5f5f5",
+"Order":102
+},{
+"Name":"dropdown-link-active-color",
+"Category":"Dropdowns",
+"Type":"color",
+"Title":"Dropdown link active color",
+"Description":"Dropdown link active color",
+"DefaultValue":"@component-active-color",
+"Order":103
+},{
+"Name":"dropdown-link-active-bg",
+"Category":"Dropdowns",
+"Type":"color",
+"Title":"Dropdown link active bg",
+"Description":"Dropdown link active bg",
+"DefaultValue":"@component-active-bg",
+"Order":104
+},{
+"Name":"dropdown-link-disabled-color",
+"Category":"Dropdowns",
+"Type":"color",
+"Title":"Dropdown link disabled color",
+"Description":"Dropdown link disabled color",
+"DefaultValue":"@gray-light",
+"Order":105
+},{
+"Name":"dropdown-header-color",
+"Category":"Dropdowns",
+"Type":"color",
+"Title":"Dropdown header color",
+"Description":"Dropdown header color",
+"DefaultValue":"@gray-light",
+"Order":106
+},{
+"Name":"dropdown-caret-color",
+"Category":"Dropdowns",
+"Type":"color",
+"Title":"Dropdown caret color",
+"Description":"Dropdown caret color",
+"DefaultValue":"#000",
+"Order":107
+},{
+"Name":"zindex-navbar",
+"Category":"ZIndexes",
+"Type":"scalar",
+"Title":"Zindex navbar",
+"Description":"Zindex navbar",
+"DefaultValue":"1000",
+"Order":108
+},{
+"Name":"zindex-dropdown",
+"Category":"ZIndexes",
+"Type":"scalar",
+"Title":"Zindex dropdown",
+"Description":"Zindex dropdown",
+"DefaultValue":"1000",
+"Order":109
+},{
+"Name":"zindex-popover",
+"Category":"ZIndexes",
+"Type":"scalar",
+"Title":"Zindex popover",
+"Description":"Zindex popover",
+"DefaultValue":"1010",
+"Order":110
+},{
+"Name":"zindex-tooltip",
+"Category":"ZIndexes",
+"Type":"scalar",
+"Title":"Zindex tooltip",
+"Description":"Zindex tooltip",
+"DefaultValue":"1030",
+"Order":111
+},{
+"Name":"zindex-navbar-fixed",
+"Category":"ZIndexes",
+"Type":"scalar",
+"Title":"Zindex navbar fixed",
+"Description":"Zindex navbar fixed",
+"DefaultValue":"1030",
+"Order":112
+},{
+"Name":"zindex-modal-background",
+"Category":"ZIndexes",
+"Type":"scalar",
+"Title":"Zindex modal background",
+"Description":"Zindex modal background",
+"DefaultValue":"1040",
+"Order":113
+},{
+"Name":"zindex-modal",
+"Category":"ZIndexes",
+"Type":"scalar",
+"Title":"Zindex modal",
+"Description":"Zindex modal",
+"DefaultValue":"1050",
+"Order":114
+},{
+"Name":"screen-xs",
+"Category":"Screen Sizes",
+"Type":"size-scalar",
+"Title":"Screen xs",
+"Description":"Screen xs",
+"DefaultValue":"480px",
+"Order":115
+},{
+"Name":"screen-xs-min",
+"Category":"Screen Sizes",
+"Type":"size-scalar",
+"Title":"Screen xs min",
+"Description":"Screen xs min",
+"DefaultValue":"@screen-xs",
+"Order":116
+},{
+"Name":"screen-phone",
+"Category":"Screen Sizes",
+"Type":"size-scalar",
+"Title":"Screen phone",
+"Description":"Screen phone",
+"DefaultValue":"@screen-xs-min",
+"Order":117
+},{
+"Name":"screen-sm",
+"Category":"Screen Sizes",
+"Type":"size-scalar",
+"Title":"Screen sm",
+"Description":"Screen sm",
+"DefaultValue":"768px",
+"Order":118
+},{
+"Name":"screen-sm-min",
+"Category":"Screen Sizes",
+"Type":"size-scalar",
+"Title":"Screen sm min",
+"Description":"Screen sm min",
+"DefaultValue":"@screen-sm",
+"Order":119
+},{
+"Name":"screen-tablet",
+"Category":"Screen Sizes",
+"Type":"size-scalar",
+"Title":"Screen tablet",
+"Description":"Screen tablet",
+"DefaultValue":"@screen-sm-min",
+"Order":120
+},{
+"Name":"screen-md",
+"Category":"Screen Sizes",
+"Type":"size-scalar",
+"Title":"Screen md",
+"Description":"Screen md",
+"DefaultValue":"992px",
+"Order":121
+},{
+"Name":"screen-md-min",
+"Category":"Screen Sizes",
+"Type":"size-scalar",
+"Title":"Screen md min",
+"Description":"Screen md min",
+"DefaultValue":"@screen-md",
+"Order":122
+},{
+"Name":"screen-desktop",
+"Category":"Screen Sizes",
+"Type":"size-scalar",
+"Title":"Screen desktop",
+"Description":"Screen desktop",
+"DefaultValue":"@screen-md-min",
+"Order":123
+},{
+"Name":"screen-lg",
+"Category":"Screen Sizes",
+"Type":"color",
+"Title":"Screen lg",
+"Description":"Screen lg",
+"DefaultValue":"1200px",
+"Order":124
+},{
+"Name":"screen-lg-min",
+"Category":"Screen Sizes",
+"Type":"color",
+"Title":"Screen lg min",
+"Description":"Screen lg min",
+"DefaultValue":"@screen-lg",
+"Order":125
+},{
+"Name":"screen-lg-desktop",
+"Category":"Screen Sizes",
+"Type":"size-scalar",
+"Title":"Screen lg desktop",
+"Description":"Screen lg desktop",
+"DefaultValue":"@screen-lg-min",
+"Order":126
+},{
+"Name":"screen-xs-max",
+"Category":"Screen Sizes",
+"Type":"size-scalar",
+"Title":"Screen xs max",
+"Description":"Screen xs max",
+"DefaultValue":"(@screen-sm-min - 1)",
+"Order":127
+},{
+"Name":"screen-sm-max",
+"Category":"Screen Sizes",
+"Type":"size-scalar",
+"Title":"Screen sm max",
+"Description":"Screen sm max",
+"DefaultValue":"(@screen-md-min - 1)",
+"Order":128
+},{
+"Name":"screen-md-max",
+"Category":"Screen Sizes",
+"Type":"size-scalar",
+"Title":"Screen md max",
+"Description":"Screen md max",
+"DefaultValue":"(@screen-lg-min - 1)",
+"Order":129
+},{
+"Name":"grid-columns",
+"Category":"Grid",
+"Type":"scalar",
+"Title":"Grid columns",
+"Description":"Grid columns",
+"DefaultValue":"12",
+"Order":130
+},{
+"Name":"grid-gutter-width",
+"Category":"Grid",
+"Type":"size-scalar",
+"Title":"Grid gutter width",
+"Description":"Grid gutter width",
+"DefaultValue":"30px",
+"Order":131
+},{
+"Name":"grid-float-breakpoint",
+"Category":"Grid",
+"Type":"size-scalar",
+"Title":"Grid float breakpoint",
+"Description":"Grid float breakpoint",
+"DefaultValue":"@screen-sm-min",
+"Order":132
+},{
+"Name":"grid-float-breakpoint-max",
+"Category":"Grid",
+"Type":"size-scalar",
+"Title":"Grid float breakpoint max",
+"Description":"Grid float breakpoint max",
+"DefaultValue":"(@grid-float-breakpoint - 1)",
+"Order":133
+},{
+"Name":"container-tablet",
+"Category":"Container",
+"Type":"size-scalar",
+"Title":"Container tablet",
+"Description":"Container tablet",
+"DefaultValue":"((720px + @grid-gutter-width))",
+"Order":134
+},{
+"Name":"container-sm",
+"Category":"Container",
+"Type":"size-scalar",
+"Title":"Container sm",
+"Description":"Container sm",
+"DefaultValue":"@container-tablet",
+"Order":135
+},{
+"Name":"container-desktop",
+"Category":"Container",
+"Type":"size-scalar",
+"Title":"Container desktop",
+"Description":"Container desktop",
+"DefaultValue":"((940px + @grid-gutter-width))",
+"Order":136
+},{
+"Name":"container-md",
+"Category":"Container",
+"Type":"size-scalar",
+"Title":"Container md",
+"Description":"Container md",
+"DefaultValue":"@container-desktop",
+"Order":137
+},{
+"Name":"container-large-desktop",
+"Category":"Container",
+"Type":"size-scalar",
+"Title":"Container large desktop",
+"Description":"Container large desktop",
+"DefaultValue":"((1140px + @grid-gutter-width))",
+"Order":138
+},{
+"Name":"container-lg",
+"Category":"Container",
+"Type":"size-scalar",
+"Title":"Container lg",
+"Description":"Container lg",
+"DefaultValue":"@container-large-desktop",
+"Order":139
+},{
+"Name":"navbar-height",
+"Category":"Navbar",
+"Type":"size-scalar",
+"Title":"Navbar height",
+"Description":"Navbar height",
+"DefaultValue":"50px",
+"Order":140
+},{
+"Name":"navbar-margin-bottom",
+"Category":"Navbar",
+"Type":"size-scalar",
+"Title":"Navbar margin bottom",
+"Description":"Navbar margin bottom",
+"DefaultValue":"@line-height-computed",
+"Order":141
+},{
+"Name":"navbar-border-radius",
+"Category":"Navbar",
+"Type":"size-box",
+"Title":"Navbar border radius",
+"Description":"Navbar border radius",
+"DefaultValue":"@border-radius-base",
+"Order":142
+},{
+"Name":"navbar-padding-horizontal",
+"Category":"Navbar",
+"Type":"size-scalar",
+"Title":"Navbar padding horizontal",
+"Description":"Navbar padding horizontal",
+"DefaultValue":"floor((@grid-gutter-width / 2))",
+"Order":143
+},{
+"Name":"navbar-padding-vertical",
+"Category":"Navbar",
+"Type":"size-scalar",
+"Title":"Navbar padding vertical",
+"Description":"Navbar padding vertical",
+"DefaultValue":"((@navbar-height - @line-height-computed) / 2)",
+"Order":144
+},{
+"Name":"navbar-collapse-max-height",
+"Category":"Navbar",
+"Type":"size-scalar",
+"Title":"Navbar collapse max height",
+"Description":"Navbar collapse max height",
+"DefaultValue":"340px",
+"Order":145
+},{
+"Name":"navbar-default-color",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar default color",
+"Description":"Navbar default color",
+"DefaultValue":"#777",
+"Order":146
+},{
+"Name":"navbar-default-bg",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar default bg",
+"Description":"Navbar default bg",
+"DefaultValue":"#f8f8f8",
+"Order":147
+},{
+"Name":"navbar-default-border",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar default border",
+"Description":"Navbar default border",
+"DefaultValue":"darken(@navbar-default-bg, 6.5%)",
+"Order":148
+},{
+"Name":"navbar-default-link-color",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar default link color",
+"Description":"Navbar default link color",
+"DefaultValue":"#777",
+"Order":149
+},{
+"Name":"navbar-default-link-hover-color",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar default link hover color",
+"Description":"Navbar default link hover color",
+"DefaultValue":"#333",
+"Order":150
+},{
+"Name":"navbar-default-link-hover-bg",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar default link hover bg",
+"Description":"Navbar default link hover bg",
+"DefaultValue":"transparent",
+"Order":151
+},{
+"Name":"navbar-default-link-active-color",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar default link active color",
+"Description":"Navbar default link active color",
+"DefaultValue":"#555",
+"Order":152
+},{
+"Name":"navbar-default-link-active-bg",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar default link active bg",
+"Description":"Navbar default link active bg",
+"DefaultValue":"darken(@navbar-default-bg, 6.5%)",
+"Order":153
+},{
+"Name":"navbar-default-link-disabled-color",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar default link disabled color",
+"Description":"Navbar default link disabled color",
+"DefaultValue":"#ccc",
+"Order":154
+},{
+"Name":"navbar-default-link-disabled-bg",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar default link disabled bg",
+"Description":"Navbar default link disabled bg",
+"DefaultValue":"transparent",
+"Order":155
+},{
+"Name":"navbar-default-brand-color",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar default brand color",
+"Description":"Navbar default brand color",
+"DefaultValue":"@navbar-default-link-color",
+"Order":156
+},{
+"Name":"navbar-default-brand-hover-color",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar default brand hover color",
+"Description":"Navbar default brand hover color",
+"DefaultValue":"darken(@navbar-default-brand-color, 10%)",
+"Order":157
+},{
+"Name":"navbar-default-brand-hover-bg",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar default brand hover bg",
+"Description":"Navbar default brand hover bg",
+"DefaultValue":"transparent",
+"Order":158
+},{
+"Name":"navbar-default-toggle-hover-bg",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar default toggle hover bg",
+"Description":"Navbar default toggle hover bg",
+"DefaultValue":"#ddd",
+"Order":159
+},{
+"Name":"navbar-default-toggle-icon-bar-bg",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar default toggle icon bar bg",
+"Description":"Navbar default toggle icon bar bg",
+"DefaultValue":"#888",
+"Order":160
+},{
+"Name":"navbar-default-toggle-border-color",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar default toggle border color",
+"Description":"Navbar default toggle border color",
+"DefaultValue":"#ddd",
+"Order":161
+},{
+"Name":"navbar-inverse-color",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar inverse color",
+"Description":"Navbar inverse color",
+"DefaultValue":"@gray-light",
+"Order":162
+},{
+"Name":"navbar-inverse-bg",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar inverse bg",
+"Description":"Navbar inverse bg",
+"DefaultValue":"#222",
+"Order":163
+},{
+"Name":"navbar-inverse-border",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar inverse border",
+"Description":"Navbar inverse border",
+"DefaultValue":"darken(@navbar-inverse-bg, 10%)",
+"Order":164
+},{
+"Name":"navbar-inverse-link-color",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar inverse link color",
+"Description":"Navbar inverse link color",
+"DefaultValue":"@gray-light",
+"Order":165
+},{
+"Name":"navbar-inverse-link-hover-color",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar inverse link hover color",
+"Description":"Navbar inverse link hover color",
+"DefaultValue":"#fff",
+"Order":166
+},{
+"Name":"navbar-inverse-link-hover-bg",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar inverse link hover bg",
+"Description":"Navbar inverse link hover bg",
+"DefaultValue":"transparent",
+"Order":167
+},{
+"Name":"navbar-inverse-link-active-color",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar inverse link active color",
+"Description":"Navbar inverse link active color",
+"DefaultValue":"@navbar-inverse-link-hover-color",
+"Order":168
+},{
+"Name":"navbar-inverse-link-active-bg",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar inverse link active bg",
+"Description":"Navbar inverse link active bg",
+"DefaultValue":"darken(@navbar-inverse-bg, 10%)",
+"Order":169
+},{
+"Name":"navbar-inverse-link-disabled-color",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar inverse link disabled color",
+"Description":"Navbar inverse link disabled color",
+"DefaultValue":"#444",
+"Order":170
+},{
+"Name":"navbar-inverse-link-disabled-bg",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar inverse link disabled bg",
+"Description":"Navbar inverse link disabled bg",
+"DefaultValue":"transparent",
+"Order":171
+},{
+"Name":"navbar-inverse-brand-color",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar inverse brand color",
+"Description":"Navbar inverse brand color",
+"DefaultValue":"@navbar-inverse-link-color",
+"Order":172
+},{
+"Name":"navbar-inverse-brand-hover-color",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar inverse brand hover color",
+"Description":"Navbar inverse brand hover color",
+"DefaultValue":"#fff",
+"Order":173
+},{
+"Name":"navbar-inverse-brand-hover-bg",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar inverse brand hover bg",
+"Description":"Navbar inverse brand hover bg",
+"DefaultValue":"transparent",
+"Order":174
+},{
+"Name":"navbar-inverse-toggle-hover-bg",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar inverse toggle hover bg",
+"Description":"Navbar inverse toggle hover bg",
+"DefaultValue":"#333",
+"Order":175
+},{
+"Name":"navbar-inverse-toggle-icon-bar-bg",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar inverse toggle icon bar bg",
+"Description":"Navbar inverse toggle icon bar bg",
+"DefaultValue":"#fff",
+"Order":176
+},{
+"Name":"navbar-inverse-toggle-border-color",
+"Category":"Navbar",
+"Type":"color",
+"Title":"Navbar inverse toggle border color",
+"Description":"Navbar inverse toggle border color",
+"DefaultValue":"#333",
+"Order":177
+},{
+"Name":"nav-link-padding",
+"Category":"Nav",
+"Type":"color",
+"Title":"Nav link padding",
+"Description":"Nav link padding",
+"DefaultValue":"10px 15px",
+"Order":178
+},{
+"Name":"nav-link-hover-bg",
+"Category":"Nav",
+"Type":"color",
+"Title":"Nav link hover bg",
+"Description":"Nav link hover bg",
+"DefaultValue":"@gray-lighter",
+"Order":179
+},{
+"Name":"nav-disabled-link-color",
+"Category":"Nav",
+"Type":"color",
+"Title":"Nav disabled link color",
+"Description":"Nav disabled link color",
+"DefaultValue":"@gray-light",
+"Order":180
+},{
+"Name":"nav-disabled-link-hover-color",
+"Category":"Nav",
+"Type":"color",
+"Title":"Nav disabled link hover color",
+"Description":"Nav disabled link hover color",
+"DefaultValue":"@gray-light",
+"Order":181
+},{
+"Name":"nav-open-link-hover-color",
+"Category":"Nav",
+"Type":"color",
+"Title":"Nav open link hover color",
+"Description":"Nav open link hover color",
+"DefaultValue":"#fff",
+"Order":182
+},{
+"Name":"nav-tabs-border-color",
+"Category":"Nav",
+"Type":"color",
+"Title":"Nav tabs border color",
+"Description":"Nav tabs border color",
+"DefaultValue":"#ddd",
+"Order":183
+},{
+"Name":"nav-tabs-link-hover-border-color",
+"Category":"Nav",
+"Type":"color",
+"Title":"Nav tabs link hover border color",
+"Description":"Nav tabs link hover border color",
+"DefaultValue":"@gray-lighter",
+"Order":184
+},{
+"Name":"nav-tabs-active-link-hover-bg",
+"Category":"Nav",
+"Type":"color",
+"Title":"Nav tabs active link hover bg",
+"Description":"Nav tabs active link hover bg",
+"DefaultValue":"@body-bg",
+"Order":185
+},{
+"Name":"nav-tabs-active-link-hover-color",
+"Category":"Nav",
+"Type":"color",
+"Title":"Nav tabs active link hover color",
+"Description":"Nav tabs active link hover color",
+"DefaultValue":"@gray",
+"Order":186
+},{
+"Name":"nav-tabs-active-link-hover-border-color",
+"Category":"Nav",
+"Type":"color",
+"Title":"Nav tabs active link hover border color",
+"Description":"Nav tabs active link hover border color",
+"DefaultValue":"#ddd",
+"Order":187
+},{
+"Name":"nav-tabs-justified-link-border-color",
+"Category":"Nav",
+"Type":"color",
+"Title":"Nav tabs justified link border color",
+"Description":"Nav tabs justified link border color",
+"DefaultValue":"#ddd",
+"Order":188
+},{
+"Name":"nav-tabs-justified-active-link-border-color",
+"Category":"Nav",
+"Type":"color",
+"Title":"Nav tabs justified active link border color",
+"Description":"Nav tabs justified active link border color",
+"DefaultValue":"@body-bg",
+"Order":189
+},{
+"Name":"nav-pills-border-radius",
+"Category":"Nav",
+"Type":"size-box",
+"Title":"Nav pills border radius",
+"Description":"Nav pills border radius",
+"DefaultValue":"@border-radius-base",
+"Order":190
+},{
+"Name":"nav-pills-active-link-hover-bg",
+"Category":"Nav",
+"Type":"color",
+"Title":"Nav pills active link hover bg",
+"Description":"Nav pills active link hover bg",
+"DefaultValue":"@component-active-bg",
+"Order":191
+},{
+"Name":"nav-pills-active-link-hover-color",
+"Category":"Nav",
+"Type":"color",
+"Title":"Nav pills active link hover color",
+"Description":"Nav pills active link hover color",
+"DefaultValue":"@component-active-color",
+"Order":192
+},{
+"Name":"pagination-color",
+"Category":"Pagination",
+"Type":"color",
+"Title":"Pagination color",
+"Description":"Pagination color",
+"DefaultValue":"@link-color",
+"Order":193
+},{
+"Name":"pagination-bg",
+"Category":"Pagination",
+"Type":"color",
+"Title":"Pagination bg",
+"Description":"Pagination bg",
+"DefaultValue":"#fff",
+"Order":194
+},{
+"Name":"pagination-border",
+"Category":"Pagination",
+"Type":"color",
+"Title":"Pagination border",
+"Description":"Pagination border",
+"DefaultValue":"#ddd",
+"Order":195
+},{
+"Name":"pagination-hover-color",
+"Category":"Pagination",
+"Type":"color",
+"Title":"Pagination hover color",
+"Description":"Pagination hover color",
+"DefaultValue":"@link-hover-color",
+"Order":196
+},{
+"Name":"pagination-hover-bg",
+"Category":"Pagination",
+"Type":"color",
+"Title":"Pagination hover bg",
+"Description":"Pagination hover bg",
+"DefaultValue":"@gray-lighter",
+"Order":197
+},{
+"Name":"pagination-hover-border",
+"Category":"Pagination",
+"Type":"color",
+"Title":"Pagination hover border",
+"Description":"Pagination hover border",
+"DefaultValue":"#ddd",
+"Order":198
+},{
+"Name":"pagination-active-color",
+"Category":"Pagination",
+"Type":"color",
+"Title":"Pagination active color",
+"Description":"Pagination active color",
+"DefaultValue":"#fff",
+"Order":199
+},{
+"Name":"pagination-active-bg",
+"Category":"Pagination",
+"Type":"color",
+"Title":"Pagination active bg",
+"Description":"Pagination active bg",
+"DefaultValue":"@brand-primary",
+"Order":200
+},{
+"Name":"pagination-active-border",
+"Category":"Pagination",
+"Type":"color",
+"Title":"Pagination active border",
+"Description":"Pagination active border",
+"DefaultValue":"@brand-primary",
+"Order":201
+},{
+"Name":"pagination-disabled-color",
+"Category":"Pagination",
+"Type":"color",
+"Title":"Pagination disabled color",
+"Description":"Pagination disabled color",
+"DefaultValue":"@gray-light",
+"Order":202
+},{
+"Name":"pagination-disabled-bg",
+"Category":"Pagination",
+"Type":"color",
+"Title":"Pagination disabled bg",
+"Description":"Pagination disabled bg",
+"DefaultValue":"#fff",
+"Order":203
+},{
+"Name":"pagination-disabled-border",
+"Category":"Pagination",
+"Type":"color",
+"Title":"Pagination disabled border",
+"Description":"Pagination disabled border",
+"DefaultValue":"#ddd",
+"Order":204
+},{
+"Name":"pager-bg",
+"Category":"Pager",
+"Type":"color",
+"Title":"Pager bg",
+"Description":"Pager bg",
+"DefaultValue":"@pagination-bg",
+"Order":205
+},{
+"Name":"pager-border",
+"Category":"Pager",
+"Type":"color",
+"Title":"Pager border",
+"Description":"Pager border",
+"DefaultValue":"@pagination-border",
+"Order":206
+},{
+"Name":"pager-border-radius",
+"Category":"Pager",
+"Type":"size-scalar",
+"Title":"Pager border radius",
+"Description":"Pager border radius",
+"DefaultValue":"15px",
+"Order":207
+},{
+"Name":"pager-hover-bg",
+"Category":"Pager",
+"Type":"color",
+"Title":"Pager hover bg",
+"Description":"Pager hover bg",
+"DefaultValue":"@pagination-hover-bg",
+"Order":208
+},{
+"Name":"pager-active-bg",
+"Category":"Pager",
+"Type":"color",
+"Title":"Pager active bg",
+"Description":"Pager active bg",
+"DefaultValue":"@pagination-active-bg",
+"Order":209
+},{
+"Name":"pager-active-color",
+"Category":"Pager",
+"Type":"color",
+"Title":"Pager active color",
+"Description":"Pager active color",
+"DefaultValue":"@pagination-active-color",
+"Order":210
+},{
+"Name":"pager-disabled-color",
+"Category":"Pager",
+"Type":"color",
+"Title":"Pager disabled color",
+"Description":"Pager disabled color",
+"DefaultValue":"@pagination-disabled-color",
+"Order":211
+},{
+"Name":"jumbotron-padding",
+"Category":"Jumbotron",
+"Type":"size-box",
+"Title":"Jumbotron padding",
+"Description":"Jumbotron padding",
+"DefaultValue":"30px",
+"Order":212
+},{
+"Name":"jumbotron-color",
+"Category":"Jumbotron",
+"Type":"color",
+"Title":"Jumbotron color",
+"Description":"Jumbotron color",
+"DefaultValue":"inherit",
+"Order":213
+},{
+"Name":"jumbotron-bg",
+"Category":"Jumbotron",
+"Type":"color",
+"Title":"Jumbotron bg",
+"Description":"Jumbotron bg",
+"DefaultValue":"@gray-lighter",
+"Order":214
+},{
+"Name":"jumbotron-heading-color",
+"Category":"Jumbotron",
+"Type":"color",
+"Title":"Jumbotron heading color",
+"Description":"Jumbotron heading color",
+"DefaultValue":"inherit",
+"Order":215
+},{
+"Name":"jumbotron-font-size",
+"Category":"Jumbotron",
+"Type":"size-scalar",
+"Title":"Jumbotron font size",
+"Description":"Jumbotron font size",
+"DefaultValue":"ceil((@font-size-base * 1.5))",
+"Order":216
+},{
+"Name":"state-success-text",
+"Category":"State",
+"Type":"color",
+"Title":"State success text",
+"Description":"State success text",
+"DefaultValue":"#3c763d",
+"Order":217
+},{
+"Name":"state-success-bg",
+"Category":"State",
+"Type":"color",
+"Title":"State success bg",
+"Description":"State success bg",
+"DefaultValue":"#dff0d8",
+"Order":218
+},{
+"Name":"state-success-border",
+"Category":"State",
+"Type":"color",
+"Title":"State success border",
+"Description":"State success border",
+"DefaultValue":"darken(spin(@state-success-bg, -10), 5%)",
+"Order":219
+},{
+"Name":"state-info-text",
+"Category":"State",
+"Type":"color",
+"Title":"State info text",
+"Description":"State info text",
+"DefaultValue":"#31708f",
+"Order":220
+},{
+"Name":"state-info-bg",
+"Category":"State",
+"Type":"color",
+"Title":"State info bg",
+"Description":"State info bg",
+"DefaultValue":"#d9edf7",
+"Order":221
+},{
+"Name":"state-info-border",
+"Category":"State",
+"Type":"color",
+"Title":"State info border",
+"Description":"State info border",
+"DefaultValue":"darken(spin(@state-info-bg, -10), 7%)",
+"Order":222
+},{
+"Name":"state-warning-text",
+"Category":"State",
+"Type":"color",
+"Title":"State warning text",
+"Description":"State warning text",
+"DefaultValue":"#8a6d3b",
+"Order":223
+},{
+"Name":"state-warning-bg",
+"Category":"State",
+"Type":"color",
+"Title":"State warning bg",
+"Description":"State warning bg",
+"DefaultValue":"#fcf8e3",
+"Order":224
+},{
+"Name":"state-warning-border",
+"Category":"State",
+"Type":"color",
+"Title":"State warning border",
+"Description":"State warning border",
+"DefaultValue":"darken(spin(@state-warning-bg, -10), 5%)",
+"Order":225
+},{
+"Name":"state-danger-text",
+"Category":"State",
+"Type":"color",
+"Title":"State danger text",
+"Description":"State danger text",
+"DefaultValue":"#a94442",
+"Order":226
+},{
+"Name":"state-danger-bg",
+"Category":"State",
+"Type":"color",
+"Title":"State danger bg",
+"Description":"State danger bg",
+"DefaultValue":"#f2dede",
+"Order":227
+},{
+"Name":"state-danger-border",
+"Category":"State",
+"Type":"color",
+"Title":"State danger border",
+"Description":"State danger border",
+"DefaultValue":"darken(spin(@state-danger-bg, -10), 5%)",
+"Order":228
+},{
+"Name":"tooltip-max-width",
+"Category":"Tooltip",
+"Type":"size-scalar",
+"Title":"Tooltip max width",
+"Description":"Tooltip max width",
+"DefaultValue":"200px",
+"Order":229
+},{
+"Name":"tooltip-color",
+"Category":"Tooltip",
+"Type":"color",
+"Title":"Tooltip color",
+"Description":"Tooltip color",
+"DefaultValue":"#fff",
+"Order":230
+},{
+"Name":"tooltip-bg",
+"Category":"Tooltip",
+"Type":"color",
+"Title":"Tooltip bg",
+"Description":"Tooltip bg",
+"DefaultValue":"#000",
+"Order":231
+},{
+"Name":"tooltip-opacity",
+"Category":"Tooltip",
+"Type":"scalar",
+"Title":"Tooltip opacity",
+"Description":"Tooltip opacity",
+"DefaultValue":".9",
+"Order":232
+},{
+"Name":"tooltip-arrow-width",
+"Category":"Tooltip",
+"Type":"size-scalar",
+"Title":"Tooltip arrow width",
+"Description":"Tooltip arrow width",
+"DefaultValue":"5px",
+"Order":233
+},{
+"Name":"tooltip-arrow-color",
+"Category":"Tooltip",
+"Type":"color",
+"Title":"Tooltip arrow color",
+"Description":"Tooltip arrow color",
+"DefaultValue":"@tooltip-bg",
+"Order":234
+},{
+"Name":"popover-bg",
+"Category":"Popover",
+"Type":"color",
+"Title":"Popover bg",
+"Description":"Popover bg",
+"DefaultValue":"#fff",
+"Order":235
+},{
+"Name":"popover-max-width",
+"Category":"Popover",
+"Type":"size-scalar",
+"Title":"Popover max width",
+"Description":"Popover max width",
+"DefaultValue":"276px",
+"Order":236
+},{
+"Name":"popover-border-color",
+"Category":"Popover",
+"Type":"color",
+"Title":"Popover border color",
+"Description":"Popover border color",
+"DefaultValue":"rgba(0,0,0,.2)",
+"Order":237
+},{
+"Name":"popover-fallback-border-color",
+"Category":"Popover",
+"Type":"color",
+"Title":"Popover fallback border color",
+"Description":"Popover fallback border color",
+"DefaultValue":"#ccc",
+"Order":238
+},{
+"Name":"popover-title-bg",
+"Category":"Popover",
+"Type":"color",
+"Title":"Popover title bg",
+"Description":"Popover title bg",
+"DefaultValue":"darken(@popover-bg, 3%)",
+"Order":239
+},{
+"Name":"popover-arrow-width",
+"Category":"Popover",
+"Type":"size-scalar",
+"Title":"Popover arrow width",
+"Description":"Popover arrow width",
+"DefaultValue":"10px",
+"Order":240
+},{
+"Name":"popover-arrow-color",
+"Category":"Popover",
+"Type":"color",
+"Title":"Popover arrow color",
+"Description":"Popover arrow color",
+"DefaultValue":"#fff",
+"Order":241
+},{
+"Name":"popover-arrow-outer-width",
+"Category":"Popover",
+"Type":"size-scalar",
+"Title":"Popover arrow outer width",
+"Description":"Popover arrow outer width",
+"DefaultValue":"(@popover-arrow-width + 1)",
+"Order":242
+},{
+"Name":"popover-arrow-outer-color",
+"Category":"Popover",
+"Type":"color",
+"Title":"Popover arrow outer color",
+"Description":"Popover arrow outer color",
+"DefaultValue":"fadein(@popover-border-color, 5%)",
+"Order":243
+},{
+"Name":"popover-arrow-outer-fallback-color",
+"Category":"Popover",
+"Type":"color",
+"Title":"Popover arrow outer fallback color",
+"Description":"Popover arrow outer fallback color",
+"DefaultValue":"darken(@popover-fallback-border-color, 20%)",
+"Order":244
+},{
+"Name":"label-default-bg",
+"Category":"Label",
+"Type":"color",
+"Title":"Label default bg",
+"Description":"Label default bg",
+"DefaultValue":"@gray-light",
+"Order":245
+},{
+"Name":"label-primary-bg",
+"Category":"Label",
+"Type":"color",
+"Title":"Label primary bg",
+"Description":"Label primary bg",
+"DefaultValue":"@brand-primary",
+"Order":246
+},{
+"Name":"label-success-bg",
+"Category":"Label",
+"Type":"color",
+"Title":"Label success bg",
+"Description":"Label success bg",
+"DefaultValue":"@brand-success",
+"Order":247
+},{
+"Name":"label-info-bg",
+"Category":"Label",
+"Type":"color",
+"Title":"Label info bg",
+"Description":"Label info bg",
+"DefaultValue":"@brand-info",
+"Order":248
+},{
+"Name":"label-warning-bg",
+"Category":"Label",
+"Type":"color",
+"Title":"Label warning bg",
+"Description":"Label warning bg",
+"DefaultValue":"@brand-warning",
+"Order":249
+},{
+"Name":"label-danger-bg",
+"Category":"Label",
+"Type":"color",
+"Title":"Label danger bg",
+"Description":"Label danger bg",
+"DefaultValue":"@brand-danger",
+"Order":250
+},{
+"Name":"label-color",
+"Category":"Label",
+"Type":"color",
+"Title":"Label color",
+"Description":"Label color",
+"DefaultValue":"#fff",
+"Order":251
+},{
+"Name":"label-link-hover-color",
+"Category":"Label",
+"Type":"color",
+"Title":"Label link hover color",
+"Description":"Label link hover color",
+"DefaultValue":"#fff",
+"Order":252
+},{
+"Name":"modal-inner-padding",
+"Category":"Modal",
+"Type":"size-box",
+"Title":"Modal inner padding",
+"Description":"Modal inner padding",
+"DefaultValue":"20px",
+"Order":253
+},{
+"Name":"modal-title-padding",
+"Category":"Modal",
+"Type":"size-box",
+"Title":"Modal title padding",
+"Description":"Modal title padding",
+"DefaultValue":"15px",
+"Order":254
+},{
+"Name":"modal-title-line-height",
+"Category":"Modal",
+"Type":"size-scalar",
+"Title":"Modal title line height",
+"Description":"Modal title line height",
+"DefaultValue":"@line-height-base",
+"Order":255
+},{
+"Name":"modal-content-bg",
+"Category":"Modal",
+"Type":"color",
+"Title":"Modal content bg",
+"Description":"Modal content bg",
+"DefaultValue":"#fff",
+"Order":256
+},{
+"Name":"modal-content-border-color",
+"Category":"Modal",
+"Type":"color",
+"Title":"Modal content border color",
+"Description":"Modal content border color",
+"DefaultValue":"rgba(0,0,0,.2)",
+"Order":257
+},{
+"Name":"modal-content-fallback-border-color",
+"Category":"Modal",
+"Type":"color",
+"Title":"Modal content fallback border color",
+"Description":"Modal content fallback border color",
+"DefaultValue":"#999",
+"Order":258
+},{
+"Name":"modal-backdrop-bg",
+"Category":"Modal",
+"Type":"color",
+"Title":"Modal backdrop bg",
+"Description":"Modal backdrop bg",
+"DefaultValue":"#000",
+"Order":259
+},{
+"Name":"modal-backdrop-opacity",
+"Category":"Modal",
+"Type":"scalar",
+"Title":"Modal backdrop opacity",
+"Description":"Modal backdrop opacity",
+"DefaultValue":".5",
+"Order":260
+},{
+"Name":"modal-header-border-color",
+"Category":"Modal",
+"Type":"color",
+"Title":"Modal header border color",
+"Description":"Modal header border color",
+"DefaultValue":"#e5e5e5",
+"Order":261
+},{
+"Name":"modal-footer-border-color",
+"Category":"Modal",
+"Type":"color",
+"Title":"Modal footer border color",
+"Description":"Modal footer border color",
+"DefaultValue":"@modal-header-border-color",
+"Order":262
+},{
+"Name":"modal-lg",
+"Category":"Modal",
+"Type":"size-scalar",
+"Title":"Modal lg",
+"Description":"Modal lg",
+"DefaultValue":"900px",
+"Order":263
+},{
+"Name":"modal-md",
+"Category":"Modal",
+"Type":"size-scalar",
+"Title":"Modal md",
+"Description":"Modal md",
+"DefaultValue":"600px",
+"Order":264
+},{
+"Name":"modal-sm",
+"Category":"Modal",
+"Type":"size-scalar",
+"Title":"Modal sm",
+"Description":"Modal sm",
+"DefaultValue":"300px",
+"Order":265
+},{
+"Name":"alert-padding",
+"Category":"Alert",
+"Type":"size-box",
+"Title":"Alert padding",
+"Description":"Alert padding",
+"DefaultValue":"15px",
+"Order":266
+},{
+"Name":"alert-border-radius",
+"Category":"Alert",
+"Type":"size-box",
+"Title":"Alert border radius",
+"Description":"Alert border radius",
+"DefaultValue":"@border-radius-base",
+"Order":267
+},{
+"Name":"alert-link-font-weight",
+"Category":"Alert",
+"Type":"font-weight",
+"Title":"Alert link font weight",
+"Description":"Alert link font weight",
+"DefaultValue":"bold",
+"Order":268
+},{
+"Name":"alert-success-bg",
+"Category":"Alert",
+"Type":"color",
+"Title":"Alert success bg",
+"Description":"Alert success bg",
+"DefaultValue":"@state-success-bg",
+"Order":269
+},{
+"Name":"alert-success-text",
+"Category":"Alert",
+"Type":"color",
+"Title":"Alert success text",
+"Description":"Alert success text",
+"DefaultValue":"@state-success-text",
+"Order":270
+},{
+"Name":"alert-success-border",
+"Category":"Alert",
+"Type":"color",
+"Title":"Alert success border",
+"Description":"Alert success border",
+"DefaultValue":"@state-success-border",
+"Order":271
+},{
+"Name":"alert-info-bg",
+"Category":"Alert",
+"Type":"color",
+"Title":"Alert info bg",
+"Description":"Alert info bg",
+"DefaultValue":"@state-info-bg",
+"Order":272
+},{
+"Name":"alert-info-text",
+"Category":"Alert",
+"Type":"color",
+"Title":"Alert info text",
+"Description":"Alert info text",
+"DefaultValue":"@state-info-text",
+"Order":273
+},{
+"Name":"alert-info-border",
+"Category":"Alert",
+"Type":"color",
+"Title":"Alert info border",
+"Description":"Alert info border",
+"DefaultValue":"@state-info-border",
+"Order":274
+},{
+"Name":"alert-warning-bg",
+"Category":"Alert",
+"Type":"color",
+"Title":"Alert warning bg",
+"Description":"Alert warning bg",
+"DefaultValue":"@state-warning-bg",
+"Order":275
+},{
+"Name":"alert-warning-text",
+"Category":"Alert",
+"Type":"color",
+"Title":"Alert warning text",
+"Description":"Alert warning text",
+"DefaultValue":"@state-warning-text",
+"Order":276
+},{
+"Name":"alert-warning-border",
+"Category":"Alert",
+"Type":"color",
+"Title":"Alert warning border",
+"Description":"Alert warning border",
+"DefaultValue":"@state-warning-border",
+"Order":277
+},{
+"Name":"alert-danger-bg",
+"Category":"Alert",
+"Type":"color",
+"Title":"Alert danger bg",
+"Description":"Alert danger bg",
+"DefaultValue":"@state-danger-bg",
+"Order":278
+},{
+"Name":"alert-danger-text",
+"Category":"Alert",
+"Type":"color",
+"Title":"Alert danger text",
+"Description":"Alert danger text",
+"DefaultValue":"@state-danger-text",
+"Order":279
+},{
+"Name":"alert-danger-border",
+"Category":"Alert",
+"Type":"color",
+"Title":"Alert danger border",
+"Description":"Alert danger border",
+"DefaultValue":"@state-danger-border",
+"Order":280
+},{
+"Name":"progress-bg",
+"Category":"Progress",
+"Type":"color",
+"Title":"Progress bg",
+"Description":"Progress bg",
+"DefaultValue":"#f5f5f5",
+"Order":281
+},{
+"Name":"progress-bar-color",
+"Category":"Progress",
+"Type":"color",
+"Title":"Progress bar color",
+"Description":"Progress bar color",
+"DefaultValue":"#fff",
+"Order":282
+},{
+"Name":"progress-bar-bg",
+"Category":"Progress",
+"Type":"color",
+"Title":"Progress bar bg",
+"Description":"Progress bar bg",
+"DefaultValue":"@brand-primary",
+"Order":283
+},{
+"Name":"progress-bar-success-bg",
+"Category":"Progress",
+"Type":"color",
+"Title":"Progress bar success bg",
+"Description":"Progress bar success bg",
+"DefaultValue":"@brand-success",
+"Order":284
+},{
+"Name":"progress-bar-warning-bg",
+"Category":"Progress",
+"Type":"color",
+"Title":"Progress bar warning bg",
+"Description":"Progress bar warning bg",
+"DefaultValue":"@brand-warning",
+"Order":285
+},{
+"Name":"progress-bar-danger-bg",
+"Category":"Progress",
+"Type":"color",
+"Title":"Progress bar danger bg",
+"Description":"Progress bar danger bg",
+"DefaultValue":"@brand-danger",
+"Order":286
+},{
+"Name":"progress-bar-info-bg",
+"Category":"Progress",
+"Type":"color",
+"Title":"Progress bar info bg",
+"Description":"Progress bar info bg",
+"DefaultValue":"@brand-info",
+"Order":287
+},{
+"Name":"list-group-bg",
+"Category":"List",
+"Type":"color",
+"Title":"List group bg",
+"Description":"List group bg",
+"DefaultValue":"#fff",
+"Order":288
+},{
+"Name":"list-group-border",
+"Category":"List",
+"Type":"color",
+"Title":"List group border",
+"Description":"List group border",
+"DefaultValue":"#ddd",
+"Order":289
+},{
+"Name":"list-group-border-radius",
+"Category":"List",
+"Type":"size-box",
+"Title":"List group border radius",
+"Description":"List group border radius",
+"DefaultValue":"@border-radius-base",
+"Order":290
+},{
+"Name":"list-group-hover-bg",
+"Category":"List",
+"Type":"color",
+"Title":"List group hover bg",
+"Description":"List group hover bg",
+"DefaultValue":"#f5f5f5",
+"Order":291
+},{
+"Name":"list-group-active-color",
+"Category":"List",
+"Type":"color",
+"Title":"List group active color",
+"Description":"List group active color",
+"DefaultValue":"@component-active-color",
+"Order":292
+},{
+"Name":"list-group-active-bg",
+"Category":"List",
+"Type":"color",
+"Title":"List group active bg",
+"Description":"List group active bg",
+"DefaultValue":"@component-active-bg",
+"Order":293
+},{
+"Name":"list-group-active-border",
+"Category":"List",
+"Type":"color",
+"Title":"List group active border",
+"Description":"List group active border",
+"DefaultValue":"@list-group-active-bg",
+"Order":294
+},{
+"Name":"list-group-active-text-color",
+"Category":"List",
+"Type":"color",
+"Title":"List group active text color",
+"Description":"List group active text color",
+"DefaultValue":"lighten(@list-group-active-bg, 40%)",
+"Order":295
+},{
+"Name":"list-group-link-color",
+"Category":"List",
+"Type":"color",
+"Title":"List group link color",
+"Description":"List group link color",
+"DefaultValue":"#555",
+"Order":296
+},{
+"Name":"list-group-link-heading-color",
+"Category":"List",
+"Type":"color",
+"Title":"List group link heading color",
+"Description":"List group link heading color",
+"DefaultValue":"#333",
+"Order":297
+},{
+"Name":"panel-bg",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel bg",
+"Description":"Panel bg",
+"DefaultValue":"#fff",
+"Order":298
+},{
+"Name":"panel-body-padding",
+"Category":"Panel",
+"Type":"size-box",
+"Title":"Panel body padding",
+"Description":"Panel body padding",
+"DefaultValue":"15px",
+"Order":299
+},{
+"Name":"panel-border-radius",
+"Category":"Panel",
+"Type":"size-box",
+"Title":"Panel border radius",
+"Description":"Panel border radius",
+"DefaultValue":"@border-radius-base",
+"Order":300
+},{
+"Name":"panel-inner-border",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel inner border",
+"Description":"Panel inner border",
+"DefaultValue":"#ddd",
+"Order":301
+},{
+"Name":"panel-footer-bg",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel footer bg",
+"Description":"Panel footer bg",
+"DefaultValue":"#f5f5f5",
+"Order":302
+},{
+"Name":"panel-default-text",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel default text",
+"Description":"Panel default text",
+"DefaultValue":"@gray-dark",
+"Order":303
+},{
+"Name":"panel-default-border",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel default border",
+"Description":"Panel default border",
+"DefaultValue":"#ddd",
+"Order":304
+},{
+"Name":"panel-default-heading-bg",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel default heading bg",
+"Description":"Panel default heading bg",
+"DefaultValue":"#f5f5f5",
+"Order":305
+},{
+"Name":"panel-primary-text",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel primary text",
+"Description":"Panel primary text",
+"DefaultValue":"#fff",
+"Order":306
+},{
+"Name":"panel-primary-border",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel primary border",
+"Description":"Panel primary border",
+"DefaultValue":"@brand-primary",
+"Order":307
+},{
+"Name":"panel-primary-heading-bg",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel primary heading bg",
+"Description":"Panel primary heading bg",
+"DefaultValue":"@brand-primary",
+"Order":308
+},{
+"Name":"panel-success-text",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel success text",
+"Description":"Panel success text",
+"DefaultValue":"@state-success-text",
+"Order":309
+},{
+"Name":"panel-success-border",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel success border",
+"Description":"Panel success border",
+"DefaultValue":"@state-success-border",
+"Order":310
+},{
+"Name":"panel-success-heading-bg",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel success heading bg",
+"Description":"Panel success heading bg",
+"DefaultValue":"@state-success-bg",
+"Order":311
+},{
+"Name":"panel-info-text",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel info text",
+"Description":"Panel info text",
+"DefaultValue":"@state-info-text",
+"Order":312
+},{
+"Name":"panel-info-border",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel info border",
+"Description":"Panel info border",
+"DefaultValue":"@state-info-border",
+"Order":313
+},{
+"Name":"panel-info-heading-bg",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel info heading bg",
+"Description":"Panel info heading bg",
+"DefaultValue":"@state-info-bg",
+"Order":314
+},{
+"Name":"panel-warning-text",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel warning text",
+"Description":"Panel warning text",
+"DefaultValue":"@state-warning-text",
+"Order":315
+},{
+"Name":"panel-warning-border",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel warning border",
+"Description":"Panel warning border",
+"DefaultValue":"@state-warning-border",
+"Order":316
+},{
+"Name":"panel-warning-heading-bg",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel warning heading bg",
+"Description":"Panel warning heading bg",
+"DefaultValue":"@state-warning-bg",
+"Order":317
+},{
+"Name":"panel-danger-text",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel danger text",
+"Description":"Panel danger text",
+"DefaultValue":"@state-danger-text",
+"Order":318
+},{
+"Name":"panel-danger-border",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel danger border",
+"Description":"Panel danger border",
+"DefaultValue":"@state-danger-border",
+"Order":319
+},{
+"Name":"panel-danger-heading-bg",
+"Category":"Panel",
+"Type":"color",
+"Title":"Panel danger heading bg",
+"Description":"Panel danger heading bg",
+"DefaultValue":"@state-danger-bg",
+"Order":320
+},{
+"Name":"thumbnail-padding",
+"Category":"Thumbnail",
+"Type":"size-box",
+"Title":"Thumbnail padding",
+"Description":"Thumbnail padding",
+"DefaultValue":"4px",
+"Order":321
+},{
+"Name":"thumbnail-bg",
+"Category":"Thumbnail",
+"Type":"color",
+"Title":"Thumbnail bg",
+"Description":"Thumbnail bg",
+"DefaultValue":"@body-bg",
+"Order":322
+},{
+"Name":"thumbnail-border",
+"Category":"Thumbnail",
+"Type":"color",
+"Title":"Thumbnail border",
+"Description":"Thumbnail border",
+"DefaultValue":"#ddd",
+"Order":323
+},{
+"Name":"thumbnail-border-radius",
+"Category":"Thumbnail",
+"Type":"size-box",
+"Title":"Thumbnail border radius",
+"Description":"Thumbnail border radius",
+"DefaultValue":"@border-radius-base",
+"Order":324
+},{
+"Name":"thumbnail-caption-color",
+"Category":"Thumbnail",
+"Type":"color",
+"Title":"Thumbnail caption color",
+"Description":"Thumbnail caption color",
+"DefaultValue":"@text-color",
+"Order":325
+},{
+"Name":"thumbnail-caption-padding",
+"Category":"Thumbnail",
+"Type":"size-box",
+"Title":"Thumbnail caption padding",
+"Description":"Thumbnail caption padding",
+"DefaultValue":"9px",
+"Order":326
+},{
+"Name":"well-bg",
+"Category":"Well",
+"Type":"color",
+"Title":"Well bg",
+"Description":"Well bg",
+"DefaultValue":"#f5f5f5",
+"Order":327
+},{
+"Name":"well-border",
+"Category":"Well",
+"Type":"color",
+"Title":"Well border",
+"Description":"Well border",
+"DefaultValue":"darken(@well-bg, 7%)",
+"Order":328
+},{
+"Name":"badge-color",
+"Category":"Badge",
+"Type":"color",
+"Title":"Badge color",
+"Description":"Badge color",
+"DefaultValue":"#fff",
+"Order":329
+},{
+"Name":"badge-link-hover-color",
+"Category":"Badge",
+"Type":"color",
+"Title":"Badge link hover color",
+"Description":"Badge link hover color",
+"DefaultValue":"#fff",
+"Order":330
+},{
+"Name":"badge-bg",
+"Category":"Badge",
+"Type":"color",
+"Title":"Badge bg",
+"Description":"Badge bg",
+"DefaultValue":"@gray-light",
+"Order":331
+},{
+"Name":"badge-active-color",
+"Category":"Badge",
+"Type":"color",
+"Title":"Badge active color",
+"Description":"Badge active color",
+"DefaultValue":"@link-color",
+"Order":332
+},{
+"Name":"badge-active-bg",
+"Category":"Badge",
+"Type":"color",
+"Title":"Badge active bg",
+"Description":"Badge active bg",
+"DefaultValue":"#fff",
+"Order":333
+},{
+"Name":"badge-font-weight",
+"Category":"Badge",
+"Type":"font-weight",
+"Title":"Badge font weight",
+"Description":"Badge font weight",
+"DefaultValue":"bold",
+"Order":334
+},{
+"Name":"badge-line-height",
+"Category":"Badge",
+"Type":"size-scalar",
+"Title":"Badge line height",
+"Description":"Badge line height",
+"DefaultValue":"1",
+"Order":335
+},{
+"Name":"badge-border-radius",
+"Category":"Badge",
+"Type":"size-box",
+"Title":"Badge border radius",
+"Description":"Badge border radius",
+"DefaultValue":"10px",
+"Order":336
+},{
+"Name":"breadcrumb-padding-vertical",
+"Category":"Breadcrumb",
+"Type":"size-scalar",
+"Title":"Breadcrumb padding vertical",
+"Description":"Breadcrumb padding vertical",
+"DefaultValue":"8px",
+"Order":337
+},{
+"Name":"breadcrumb-padding-horizontal",
+"Category":"Breadcrumb",
+"Type":"color",
+"Title":"Breadcrumb padding horizontal",
+"Description":"Breadcrumb padding horizontal",
+"DefaultValue":"15px",
+"Order":338
+},{
+"Name":"breadcrumb-bg",
+"Category":"Breadcrumb",
+"Type":"color",
+"Title":"Breadcrumb bg",
+"Description":"Breadcrumb bg",
+"DefaultValue":"#f5f5f5",
+"Order":339
+},{
+"Name":"breadcrumb-color",
+"Category":"Breadcrumb",
+"Type":"color",
+"Title":"Breadcrumb color",
+"Description":"Breadcrumb color",
+"DefaultValue":"#ccc",
+"Order":340
+},{
+"Name":"breadcrumb-active-color",
+"Category":"Breadcrumb",
+"Type":"color",
+"Title":"Breadcrumb active color",
+"Description":"Breadcrumb active color",
+"DefaultValue":"@gray-light",
+"Order":341
+},{
+"Name":"breadcrumb-separator",
+"Category":"Breadcrumb",
+"Type":"string",
+"Title":"Breadcrumb separator",
+"Description":"Breadcrumb separator",
+"DefaultValue":"\"/\"",
+"Order":342
+},{
+"Name":"carousel-text-shadow",
+"Category":"Carousel",
+"Type":"string",
+"Title":"Carousel text shadow",
+"Description":"Carousel text shadow",
+"DefaultValue":"0 1px 2px rgba(0,0,0,.6)",
+"Order":343
+},{
+"Name":"carousel-control-color",
+"Category":"Carousel",
+"Type":"color",
+"Title":"Carousel control color",
+"Description":"Carousel control color",
+"DefaultValue":"#fff",
+"Order":344
+},{
+"Name":"carousel-control-width",
+"Category":"Carousel",
+"Type":"color",
+"Title":"Carousel control width",
+"Description":"Carousel control width",
+"DefaultValue":"15%",
+"Order":345
+},{
+"Name":"carousel-control-opacity",
+"Category":"Carousel",
+"Type":"scalar",
+"Title":"Carousel control opacity",
+"Description":"Carousel control opacity",
+"DefaultValue":".5",
+"Order":346
+},{
+"Name":"carousel-control-font-size",
+"Category":"Carousel",
+"Type":"size-scalar",
+"Title":"Carousel control font size",
+"Description":"Carousel control font size",
+"DefaultValue":"20px",
+"Order":347
+},{
+"Name":"carousel-indicator-active-bg",
+"Category":"Carousel",
+"Type":"color",
+"Title":"Carousel indicator active bg",
+"Description":"Carousel indicator active bg",
+"DefaultValue":"#fff",
+"Order":348
+},{
+"Name":"carousel-indicator-border-color",
+"Category":"Carousel",
+"Type":"color",
+"Title":"Carousel indicator border color",
+"Description":"Carousel indicator border color",
+"DefaultValue":"#fff",
+"Order":349
+},{
+"Name":"carousel-caption-color",
+"Category":"Carousel",
+"Type":"color",
+"Title":"Carousel caption color",
+"Description":"Carousel caption color",
+"DefaultValue":"#fff",
+"Order":350
+},{
+"Name":"close-font-weight",
+"Category":"Close",
+"Type":"font-weight",
+"Title":"Close font weight",
+"Description":"Close font weight",
+"DefaultValue":"bold",
+"Order":351
+},{
+"Name":"close-color",
+"Category":"Close",
+"Type":"color",
+"Title":"Close color",
+"Description":"Close color",
+"DefaultValue":"#000",
+"Order":352
+},{
+"Name":"close-text-shadow",
+"Category":"Close",
+"Type":"color",
+"Title":"Close text shadow",
+"Description":"Close text shadow",
+"DefaultValue":"0 1px 0 #fff",
+"Order":353
+},{
+"Name":"code-color",
+"Category":"Code",
+"Type":"color",
+"Title":"Code color",
+"Description":"Code color",
+"DefaultValue":"#c7254e",
+"Order":354
+},{
+"Name":"code-bg",
+"Category":"Code",
+"Type":"color",
+"Title":"Code bg",
+"Description":"Code bg",
+"DefaultValue":"#f9f2f4",
+"Order":355
+},{
+"Name":"kbd-color",
+"Category":"Kbd",
+"Type":"color",
+"Title":"Kbd color",
+"Description":"Kbd color",
+"DefaultValue":"#fff",
+"Order":356
+},{
+"Name":"kbd-bg",
+"Category":"Kbd",
+"Type":"color",
+"Title":"Kbd bg",
+"Description":"Kbd bg",
+"DefaultValue":"#333",
+"Order":357
+},{
+"Name":"pre-bg",
+"Category":"Pre",
+"Type":"color",
+"Title":"Pre bg",
+"Description":"Pre bg",
+"DefaultValue":"#f5f5f5",
+"Order":358
+},{
+"Name":"pre-color",
+"Category":"Pre",
+"Type":"color",
+"Title":"Pre color",
+"Description":"Pre color",
+"DefaultValue":"@gray-dark",
+"Order":359
+},{
+"Name":"pre-border-color",
+"Category":"Pre",
+"Type":"color",
+"Title":"Pre border color",
+"Description":"Pre border color",
+"DefaultValue":"#ccc",
+"Order":360
+},{
+"Name":"pre-scrollable-max-height",
+"Category":"Pre",
+"Type":"size-scalar",
+"Title":"Pre scrollable max height",
+"Description":"Pre scrollable max height",
+"DefaultValue":"340px",
+"Order":361
+},{
+"Name":"text-muted",
+"Category":"Text",
+"Type":"color",
+"Title":"Text muted",
+"Description":"Text muted",
+"DefaultValue":"@gray-light",
+"Order":362
+},{
+"Name":"abbr-border-color",
+"Category":"Abbr",
+"Type":"color",
+"Title":"Abbr border color",
+"Description":"Abbr border color",
+"DefaultValue":"@gray-light",
+"Order":363
+},{
+"Name":"headings-small-color",
+"Category":"Headings",
+"Type":"color",
+"Title":"Headings small color",
+"Description":"Headings small color",
+"DefaultValue":"@gray-light",
+"Order":364
+},{
+"Name":"blockquote-small-color",
+"Category":"Blockquote",
+"Type":"color",
+"Title":"Blockquote small color",
+"Description":"Blockquote small color",
+"DefaultValue":"@gray-light",
+"Order":365
+},{
+"Name":"blockquote-font-size",
+"Category":"Blockquote",
+"Type":"color",
+"Title":"Blockquote font size",
+"Description":"Blockquote font size",
+"DefaultValue":"(@font-size-base * 1.25)",
+"Order":366
+},{
+"Name":"blockquote-border-color",
+"Category":"Blockquote",
+"Type":"color",
+"Title":"Blockquote border color",
+"Description":"Blockquote border color",
+"DefaultValue":"@gray-lighter",
+"Order":367
+},{
+"Name":"page-header-border-color",
+"Category":"Page",
+"Type":"color",
+"Title":"Page header border color",
+"Description":"Page header border color",
+"DefaultValue":"@gray-lighter",
+"Order":368
+},{
+"Name":"hr-border",
+"Category":"Hr",
+"Type":"color",
+"Title":"Hr border",
+"Description":"Hr border",
+"DefaultValue":"@gray-lighter",
+"Order":369
+},{
+"Name":"component-offset-horizontal",
+"Category":"Component",
+"Type":"size-scalar",
+"Title":"Component offset horizontal",
+"Description":"Component offset horizontal",
+"DefaultValue":"180px",
+"Order":370}]
+}
